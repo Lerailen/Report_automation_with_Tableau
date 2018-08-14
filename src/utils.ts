@@ -1,4 +1,5 @@
 import * as fs from 'fs';
+
 /**
  * Takes a template and some params and puts the params in the respective
  * place at the template.
