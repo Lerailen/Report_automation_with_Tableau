@@ -15,7 +15,8 @@ Service which applies some params in a template.
 
 ```bash
 
-  npm install
+# Installs all dependencies
+npm install
 
 ```
 
@@ -23,15 +24,33 @@ Service which applies some params in a template.
 
 ```bash
 
-# Installs all dependencies
-npm install
-
 # Compiles all typescript to javascript
 npm run build
 
 # Runs the service
 npm start
 
+```
+
+The config file provides a way to change the input and output of the service. It
+also allows to change the queries done to the database.
+[System configuration](./config/sysconf.json):
+
+```json
+{
+  "output": {
+    "folder": "example_output_folder",
+    "file": "example_output_file"
+  },
+  "template_file": {
+    "path": "example_template_file_path",
+    "name": "example_template_file_name",
+    "params": {
+      "query_x":"",
+      "query_x+1":""
+    }
+  }
+}
 ```
 
 ## Contributing
