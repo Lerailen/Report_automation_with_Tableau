@@ -3,12 +3,12 @@ import * as fs from 'fs';
 /**
  * Takes a template and some params and puts the params in the respective
  * place at the template.
- * @param {string} template 
- * @param {Object} params 
+ * @param {string} template
+ * @param {Object} params
  */
-export function replaceXMLValues(template: string, data: Object) {
-  let pattern: RegExp = /\%(\w+)\%/g; // %property%
-  return template.replace(pattern, (_match, token) => (<any>data)[token]);
+export function replaceXMLValues(template: string, data: object) {
+  const pattern: RegExp = /\%(\w+)\%/g; // %property%
+  return template.replace(pattern, (_, token) => (data as any)[token]);
 }
 
 /**

@@ -1,3 +1,23 @@
 {
-  "extends": "tslint-config-standard"
+  "extends": "tslint:recommended",
+  "defaultSeverity": "warn",
+  "rules": {
+    "indent": {
+      "options": "spaces"
+    },
+    "max-line-length": {
+      "options": [
+        80
+      ]
+    },
+    "comment-format": {
+      "options": [
+        "check-space",
+        "check-uppercase"
+      ]
+    },
+    "quotemark": {
+      "options": "single"
+    }
+  }
 }
