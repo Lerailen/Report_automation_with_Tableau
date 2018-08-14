@@ -1,27 +1,28 @@
 import * as fs from 'fs';
+import { replaceXMLValues, checkFolderSync } from './utils';
 
-let config: Object = require('../config/config.json');
+// Obtain the service configuration
+const CONFIG: {
+  "output": {
+    "folder": string,
+    "file": string
+  },
+  "template_file": {
+    "path": string,
+    "name": string,
+    "params": Object
+  }
+} = require('../config/sysconf.json');
 
 // Obtains the path to the template file
-const TEMPLATE_FILE = (<any>config)['template_file']['path'] + '/' + (<any>config)['template_file']['name'];
+const TEMPLATE_FILE = CONFIG.template_file.path + '/' + CONFIG.template_file.name
 // Obtain params from the config file
-const PARAMS = (<any>config)['template_file']['params'];
+const PARAMS = CONFIG.template_file.params;
 
 // Obtains the path to the output folder
-const OUTPUT_FOLDER = (<any>config)['output']['folder'];
+const OUTPUT_FOLDER = CONFIG.output.folder;
 // Obtains the path to the output file
-const OUTPUT_FILE = OUTPUT_FOLDER + '/' + (<any>config)['output']['file'];
-
-/**
- * Takes a template and some params and puts the params in the respective
- * place at the template.
- * @param {string} template 
- * @param {Object} params 
- */
-function replaceXMLValues(template: string, data: Object) {
-  let pattern: RegExp = /\%(\w+)\%/g; // %property%
-  return template.replace(pattern, (_match, token) => (<any>data)[token]);
-}
+const OUTPUT_FILE = OUTPUT_FOLDER + '/' + CONFIG.output.file;
 
 /**
  * Promise which reads a xml file, changes some parameters and writes the output
@@ -30,7 +31,7 @@ function replaceXMLValues(template: string, data: Object) {
 new Promise((resolve: Function, reject: Function) => {
 
   // Read template file
-  return fs.readFile(TEMPLATE_FILE, (err, data) => {
+  return fs.readFile(TEMPLATE_FILE, (err: Error, data: Buffer) => {
     if (err) { return reject('Error reading file: ' + err); }
     return resolve(data);
   });
@@ -38,19 +39,25 @@ new Promise((resolve: Function, reject: Function) => {
 }).then((template) => {
 
   // Replace params
-  return replaceXMLValues(template.toString(), PARAMS)
+  return replaceXMLValues(template.toString(), PARAMS);
+
+}).then((resultDocument) => {
+
+  // OUTPUT_FOLDER MUST exist before writting the output file
+  checkFolderSync(OUTPUT_FOLDER);
+  return resultDocument;
 
 }).then((resultDocument) => {
 
   // Write output file
-  // @todo output_folder MUST exist before writting the output file
-  return fs.writeFile(OUTPUT_FILE, resultDocument, (err) => {
+  return fs.writeFile(OUTPUT_FILE, resultDocument, (err: Error) => {
     if (err) { return Promise.reject('Error writing file: ' + err); }
     return Promise.resolve();
   });
 
 }).catch((error) => {
 
+  // Printing possible errors
   console.error(error);
   process.exit(0);
 
