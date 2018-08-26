@@ -1,5 +1,0 @@
-select texto as Texto, Impresiones 
-from actividad.aralleida_tw 
-where substring(tiempo,6,2)=02 AND substring(tiempo,1,4)=2018 
-ORDER BY impresiones ASC 
-LIMIT 0,10

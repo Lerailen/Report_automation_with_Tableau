@@ -31,5 +31,5 @@ sum(case when substring(ctimestamp, 7, 2)=29 then 1 else 0 end) as '29',
 sum(case when substring(ctimestamp, 7, 2)=30 then 1 else 0 end) as '30', 
 sum(case when substring(ctimestamp, 7, 2)=31 then 1 else 0 end) as '31' 
 from actividad.aralleida_fbposts 
-where substring(ctimestamp, 5, 2)=02 AND substring(ctimestamp, 1, 4)=2018 and type in ('link','photo','video','status') 
+where substring(ctimestamp, 5, 2)=%actual_month% AND substring(ctimestamp, 1, 4)=%actual_year% and type in ('link','photo','video','status') 
 Group by type

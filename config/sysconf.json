@@ -8,42 +8,36 @@
     "name": "template.twb"
   },
   "params": {
-    "actual_month": "08",
+    "actual_month": "02",
     "actual_year": "2018"
   },
-  "templates_queries": {
-    "queries_path": "queries",
-    "queries":[
-      "facebook_001",
-      "facebook_002",
-      "tw_001",
-      "facebook_002"
-    ],
-    "fb": "facebook",
-    "c1497": "1497.txt",
-    "c1498": "1498.txt",
-    "c1500": "1500.txt",
-    "c1501": "1501.txt",
-    "c1509": "1509.txt",
-    "c1510": "1510.txt",
-    "c1511": "1511.txt",
-    "c1512": "1512.txt",
-    "c1513": "1513.txt",
-    "c1514": "1514.txt",
-    "c1515": "1515.txt",
-    "c1517": "1517.txt",
-    "tw": "twitter",
-    "c0138": "138.txt",
-    "c0139": "139.txt",
-    "c1518": "1518.txt",
-    "c1519": "1519.txt",
-    "c1520": "1520.txt",
-    "c1522": "1522.txt",
-    "c1524": "1524.txt",
-    "c1525": "1525.txt",
-    "c1526": "1526.txt",
-    "c1527": "1527.txt",
-    "c1528": "1528.txt",
-    "c1529": "1529.txt"
+  "queries": {
+    "path": "config/queries",
+    "names":[
+      "fb_com_01.sql",
+      "fb_com_02.sql",
+      "fb_com_03.sql",
+      "fb_com_04.sql",
+      "fb_imp_01.sql",
+      "fb_imp_02.sql",
+      "fb_int_01.sql",
+      "fb_int_02.sql",
+      "fb_posts_01.sql",
+      "fb_posts_02.sql",
+      "fb_seg_01.sql",
+      "fb_seg_02.sql",
+      "tw_com_01.sql",
+      "tw_com_02.sql",
+      "tw_com_03.sql",
+      "tw_com_04.sql",
+      "tw_imp_01.sql",
+      "tw_imp_02.sql",
+      "tw_int_01.sql",
+      "tw_int_02.sql",
+      "tw_posts_01.sql",
+      "tw_posts_02.sql",
+      "tw_seg_01.sql",
+      "tw_seg_02.sql"
+    ]
   }
 }

@@ -31,4 +31,4 @@ max(case when substring(CTIMESTAMP,7,2)=29 then followers else 0 end) as '29',
 max(case when substring(CTIMESTAMP,7,2)=30 then followers else 0 end) as '30', 
 max(case when substring(CTIMESTAMP,7,2)=31 then followers else 0 end) as '31' 
 from actividad.aralleida_tw_tl
-where substring(CTIMESTAMP,5,2)=02 AND substring(CTIMESTAMP,1,4)=2018
+where substring(CTIMESTAMP,5,2)=%actual_month% AND substring(CTIMESTAMP,1,4)=%actual_year%

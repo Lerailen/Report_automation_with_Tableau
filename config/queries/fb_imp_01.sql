@@ -31,7 +31,7 @@ sum(case when substring(ctimestamp, 7, 2)=29 then organicimpressions else 0 end)
 sum(case when substring(ctimestamp, 7, 2)=30 then organicimpressions else 0 end) as '30', 
 sum(case when substring(ctimestamp, 7, 2)=31 then organicimpressions else 0 end) as '31' 
 from actividad.aralleida_fbposts 
-where substring(ctimestamp, 5, 2)=02 AND substring(ctimestamp, 1, 4)=2018 
+where substring(ctimestamp, 5, 2)=%actual_month% AND substring(ctimestamp, 1, 4)=%actual_year% 
 union 
 select 'PAGO' as 'TIPO', 
 sum(case when substring(ctimestamp, 7, 2)=01 then paidimpressions else 0 end) as '01', 
@@ -66,7 +66,7 @@ sum(case when substring(ctimestamp, 7, 2)=29 then paidimpressions else 0 end) as
 sum(case when substring(ctimestamp, 7, 2)=30 then paidimpressions else 0 end) as '30', 
 sum(case when substring(ctimestamp, 7, 2)=31 then paidimpressions else 0 end) as '31' 
 from actividad.aralleida_fbposts 
-where substring(ctimestamp, 5, 2)=02 AND substring(ctimestamp, 1, 4)=2018 
+where substring(ctimestamp, 5, 2)=%actual_month% AND substring(ctimestamp, 1, 4)=%actual_year% 
 union 
 select 'TOTAL' as 'TIPO', 
 sum(case when substring(ctimestamp, 7, 2)=01 then totalimpressions else 0 end) as '01', 
@@ -101,4 +101,4 @@ sum(case when substring(ctimestamp, 7, 2)=29 then totalimpressions else 0 end) a
 sum(case when substring(ctimestamp, 7, 2)=30 then totalimpressions else 0 end) as '30', 
 sum(case when substring(ctimestamp, 7, 2)=31 then totalimpressions else 0 end) as '31' 
 from actividad.aralleida_fbposts 
-where substring(ctimestamp, 5, 2)=02 AND substring(ctimestamp, 1, 4)=2018
+where substring(ctimestamp, 5, 2)=%actual_month% AND substring(ctimestamp, 1, 4)=%actual_year%

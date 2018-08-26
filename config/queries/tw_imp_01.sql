@@ -31,4 +31,4 @@ sum(case when substring(tiempo,9,2)=29 then impresiones else 0 end) as '29',
 sum(case when substring(tiempo,9,2)=30 then impresiones else 0 end) as '30', 
 sum(case when substring(tiempo,9,2)=31 then impresiones else 0 end) as '31' 
 from actividad.aralleida_tw 
-where substring(tiempo,6,2)=02 AND substring(tiempo,1,4)=2018
+where substring(tiempo,6,2)=%actual_month% AND substring(tiempo,1,4)=%actual_year%

@@ -22,3 +22,16 @@ export function checkFolderSync(path: string) {
     fs.mkdirSync(path, 0o755);
   }
 }
+
+/**
+ * 
+ * @param path 
+ */
+export function readFile(path: string) {
+  return new Promise((resolve, reject) => {
+    fs.readFile(path, (err: Error, data: Buffer) => {
+      if (err) { return reject(err); }
+      return resolve({path, data});
+    });
+  });
+}

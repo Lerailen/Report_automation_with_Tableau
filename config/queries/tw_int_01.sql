@@ -31,7 +31,7 @@ sum(case when substring(tiempo,9,2)=29 then RT else 0 end) as '29',
 sum(case when substring(tiempo,9,2)=30 then RT else 0 end) as '30', 
 sum(case when substring(tiempo,9,2)=31 then RT else 0 end) as '31' 
 from actividad.aralleida_tw 
-where substring(tiempo,6,2)=02 AND substring(tiempo,1,4)=2018
+where substring(tiempo,6,2)=%actual_month% AND substring(tiempo,1,4)=%actual_year%
 union 
 select CONCAT('RESP'), 
 sum(case when substring(tiempo,9,2)=01 then respuestas else 0 end) as '01', 
@@ -66,7 +66,7 @@ sum(case when substring(tiempo,9,2)=29 then respuestas else 0 end) as '29',
 sum(case when substring(tiempo,9,2)=30 then respuestas else 0 end) as '30', 
 sum(case when substring(tiempo,9,2)=31 then respuestas else 0 end) as '31' 
 from actividad.aralleida_tw 
-where substring(tiempo,6,2)=02 AND substring(tiempo,1,4)=2018
+where substring(tiempo,6,2)=%actual_month% AND substring(tiempo,1,4)=%actual_year%
 union 
 select CONCAT('GUSTA'), 
 sum(case when substring(tiempo,9,2)=01 then me_gusta else 0 end) as '01', 
@@ -101,7 +101,7 @@ sum(case when substring(tiempo,9,2)=29 then me_gusta else 0 end) as '29',
 sum(case when substring(tiempo,9,2)=30 then me_gusta else 0 end) as '30', 
 sum(case when substring(tiempo,9,2)=31 then me_gusta else 0 end) as '31' 
 from actividad.aralleida_tw 
-where substring(tiempo,6,2)=02 AND substring(tiempo,1,4)=2018
+where substring(tiempo,6,2)=%actual_month% AND substring(tiempo,1,4)=%actual_year%
 union 
 select CONCAT('CLICKS'), 
 sum(case when substring(tiempo,9,2)=01 then (clics_de_perfil)+(clics_en_url)+(clics_de_etiquetas)+(ampliaciones_de_detalles)+(clics_en_enlaces_permanentes) else 0 end) as '01', 
@@ -136,4 +136,4 @@ sum(case when substring(tiempo,9,2)=29 then (clics_de_perfil)+(clics_en_url)+(cl
 sum(case when substring(tiempo,9,2)=30 then (clics_de_perfil)+(clics_en_url)+(clics_de_etiquetas)+(ampliaciones_de_detalles)+(clics_en_enlaces_permanentes) else 0 end) as '30', 
 sum(case when substring(tiempo,9,2)=31 then (clics_de_perfil)+(clics_en_url)+(clics_de_etiquetas)+(ampliaciones_de_detalles)+(clics_en_enlaces_permanentes) else 0 end) as '31' 
 from actividad.aralleida_tw
-where substring(tiempo,6,2)=02 AND substring(tiempo,1,4)=2018
+where substring(tiempo,6,2)=%actual_month% AND substring(tiempo,1,4)=%actual_year%
