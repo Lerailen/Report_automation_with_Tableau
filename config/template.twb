@@ -18,434 +18,6 @@
           </named-connection>
         </named-connections>
         <relation connection='mysql.07nbmt31yi05kd19eohnb1jijgbd' name='1517' type='text'>%fb_seg_02%</relation>
-        <metadata-records>
-          <metadata-record class='column'>
-            <remote-name>seguidores</remote-name>
-            <remote-type>130</remote-type>
-            <local-name>[seguidores]</local-name>
-            <parent-name>[1517]</parent-name>
-            <remote-alias>seguidores</remote-alias>
-            <ordinal>1</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <width>10</width>
-            <contains-null>false</contains-null>
-            <collation flag='0' name='LROOT' />
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
-              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
-              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>ENE2017</remote-name>
-            <remote-type>131</remote-type>
-            <local-name>[ENE2017]</local-name>
-            <parent-name>[1517]</parent-name>
-            <remote-alias>ENE2017</remote-alias>
-            <ordinal>2</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <precision>41</precision>
-            <scale>0</scale>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DECIMAL&quot;</attribute>
-              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>FEB2017</remote-name>
-            <remote-type>131</remote-type>
-            <local-name>[FEB2017]</local-name>
-            <parent-name>[1517]</parent-name>
-            <remote-alias>FEB2017</remote-alias>
-            <ordinal>3</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <precision>41</precision>
-            <scale>0</scale>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DECIMAL&quot;</attribute>
-              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>MAR2017</remote-name>
-            <remote-type>131</remote-type>
-            <local-name>[MAR2017]</local-name>
-            <parent-name>[1517]</parent-name>
-            <remote-alias>MAR2017</remote-alias>
-            <ordinal>4</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <precision>41</precision>
-            <scale>0</scale>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DECIMAL&quot;</attribute>
-              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>ABR2017</remote-name>
-            <remote-type>131</remote-type>
-            <local-name>[ABR2017]</local-name>
-            <parent-name>[1517]</parent-name>
-            <remote-alias>ABR2017</remote-alias>
-            <ordinal>5</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <precision>41</precision>
-            <scale>0</scale>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DECIMAL&quot;</attribute>
-              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>MAY2017</remote-name>
-            <remote-type>131</remote-type>
-            <local-name>[MAY2017]</local-name>
-            <parent-name>[1517]</parent-name>
-            <remote-alias>MAY2017</remote-alias>
-            <ordinal>6</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <precision>41</precision>
-            <scale>0</scale>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DECIMAL&quot;</attribute>
-              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>JUN2017</remote-name>
-            <remote-type>131</remote-type>
-            <local-name>[JUN2017]</local-name>
-            <parent-name>[1517]</parent-name>
-            <remote-alias>JUN2017</remote-alias>
-            <ordinal>7</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <precision>41</precision>
-            <scale>0</scale>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DECIMAL&quot;</attribute>
-              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>JUL2017</remote-name>
-            <remote-type>131</remote-type>
-            <local-name>[JUL2017]</local-name>
-            <parent-name>[1517]</parent-name>
-            <remote-alias>JUL2017</remote-alias>
-            <ordinal>8</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <precision>41</precision>
-            <scale>0</scale>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DECIMAL&quot;</attribute>
-              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>AGO2017</remote-name>
-            <remote-type>131</remote-type>
-            <local-name>[AGO2017]</local-name>
-            <parent-name>[1517]</parent-name>
-            <remote-alias>AGO2017</remote-alias>
-            <ordinal>9</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <precision>41</precision>
-            <scale>0</scale>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DECIMAL&quot;</attribute>
-              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>SET2017</remote-name>
-            <remote-type>131</remote-type>
-            <local-name>[SET2017]</local-name>
-            <parent-name>[1517]</parent-name>
-            <remote-alias>SET2017</remote-alias>
-            <ordinal>10</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <precision>41</precision>
-            <scale>0</scale>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DECIMAL&quot;</attribute>
-              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>OCT2017</remote-name>
-            <remote-type>131</remote-type>
-            <local-name>[OCT2017]</local-name>
-            <parent-name>[1517]</parent-name>
-            <remote-alias>OCT2017</remote-alias>
-            <ordinal>11</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <precision>41</precision>
-            <scale>0</scale>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DECIMAL&quot;</attribute>
-              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>NOV2017</remote-name>
-            <remote-type>131</remote-type>
-            <local-name>[NOV2017]</local-name>
-            <parent-name>[1517]</parent-name>
-            <remote-alias>NOV2017</remote-alias>
-            <ordinal>12</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <precision>41</precision>
-            <scale>0</scale>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DECIMAL&quot;</attribute>
-              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>DIC2017</remote-name>
-            <remote-type>131</remote-type>
-            <local-name>[DIC2017]</local-name>
-            <parent-name>[1517]</parent-name>
-            <remote-alias>DIC2017</remote-alias>
-            <ordinal>13</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <precision>41</precision>
-            <scale>0</scale>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DECIMAL&quot;</attribute>
-              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>ENE%actual_year%</remote-name>
-            <remote-type>131</remote-type>
-            <local-name>[ENE%actual_year%]</local-name>
-            <parent-name>[1517]</parent-name>
-            <remote-alias>ENE%actual_year%</remote-alias>
-            <ordinal>14</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <precision>41</precision>
-            <scale>0</scale>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DECIMAL&quot;</attribute>
-              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>FEB%actual_year%</remote-name>
-            <remote-type>131</remote-type>
-            <local-name>[FEB%actual_year%]</local-name>
-            <parent-name>[1517]</parent-name>
-            <remote-alias>FEB%actual_year%</remote-alias>
-            <ordinal>15</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <precision>41</precision>
-            <scale>0</scale>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DECIMAL&quot;</attribute>
-              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>MAR%actual_year%</remote-name>
-            <remote-type>131</remote-type>
-            <local-name>[MAR%actual_year%]</local-name>
-            <parent-name>[1517]</parent-name>
-            <remote-alias>MAR%actual_year%</remote-alias>
-            <ordinal>16</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <precision>41</precision>
-            <scale>0</scale>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DECIMAL&quot;</attribute>
-              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>ABR%actual_year%</remote-name>
-            <remote-type>131</remote-type>
-            <local-name>[ABR%actual_year%]</local-name>
-            <parent-name>[1517]</parent-name>
-            <remote-alias>ABR%actual_year%</remote-alias>
-            <ordinal>17</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <precision>41</precision>
-            <scale>0</scale>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DECIMAL&quot;</attribute>
-              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>MAY%actual_year%</remote-name>
-            <remote-type>131</remote-type>
-            <local-name>[MAY%actual_year%]</local-name>
-            <parent-name>[1517]</parent-name>
-            <remote-alias>MAY%actual_year%</remote-alias>
-            <ordinal>18</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <precision>41</precision>
-            <scale>0</scale>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DECIMAL&quot;</attribute>
-              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>JUN%actual_year%</remote-name>
-            <remote-type>131</remote-type>
-            <local-name>[JUN%actual_year%]</local-name>
-            <parent-name>[1517]</parent-name>
-            <remote-alias>JUN%actual_year%</remote-alias>
-            <ordinal>19</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <precision>41</precision>
-            <scale>0</scale>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DECIMAL&quot;</attribute>
-              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>JUL%actual_year%</remote-name>
-            <remote-type>131</remote-type>
-            <local-name>[JUL%actual_year%]</local-name>
-            <parent-name>[1517]</parent-name>
-            <remote-alias>JUL%actual_year%</remote-alias>
-            <ordinal>20</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <precision>41</precision>
-            <scale>0</scale>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DECIMAL&quot;</attribute>
-              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>AGO%actual_year%</remote-name>
-            <remote-type>131</remote-type>
-            <local-name>[AGO%actual_year%]</local-name>
-            <parent-name>[1517]</parent-name>
-            <remote-alias>AGO%actual_year%</remote-alias>
-            <ordinal>21</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <precision>41</precision>
-            <scale>0</scale>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DECIMAL&quot;</attribute>
-              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>SET%actual_year%</remote-name>
-            <remote-type>131</remote-type>
-            <local-name>[SET%actual_year%]</local-name>
-            <parent-name>[1517]</parent-name>
-            <remote-alias>SET%actual_year%</remote-alias>
-            <ordinal>22</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <precision>41</precision>
-            <scale>0</scale>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DECIMAL&quot;</attribute>
-              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>OCT%actual_year%</remote-name>
-            <remote-type>131</remote-type>
-            <local-name>[OCT%actual_year%]</local-name>
-            <parent-name>[1517]</parent-name>
-            <remote-alias>OCT%actual_year%</remote-alias>
-            <ordinal>23</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <precision>41</precision>
-            <scale>0</scale>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DECIMAL&quot;</attribute>
-              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>NOV%actual_year%</remote-name>
-            <remote-type>131</remote-type>
-            <local-name>[NOV%actual_year%]</local-name>
-            <parent-name>[1517]</parent-name>
-            <remote-alias>NOV%actual_year%</remote-alias>
-            <ordinal>24</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <precision>41</precision>
-            <scale>0</scale>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DECIMAL&quot;</attribute>
-              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>DIC%actual_year%</remote-name>
-            <remote-type>131</remote-type>
-            <local-name>[DIC%actual_year%]</local-name>
-            <parent-name>[1517]</parent-name>
-            <remote-alias>DIC%actual_year%</remote-alias>
-            <ordinal>25</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <precision>41</precision>
-            <scale>0</scale>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DECIMAL&quot;</attribute>
-              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
-            </attributes>
-          </metadata-record>
-        </metadata-records>
       </connection>
       <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
         <calculation class='tableau' formula='1' />
@@ -1274,11 +846,11 @@
             </attributes>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>ENE2017</remote-name>
+            <remote-name>ENE%last_year%</remote-name>
             <remote-type>131</remote-type>
-            <local-name>[ENE2017]</local-name>
+            <local-name>[ENE%last_year%]</local-name>
             <parent-name>[1498]</parent-name>
-            <remote-alias>ENE2017</remote-alias>
+            <remote-alias>ENE%last_year%</remote-alias>
             <ordinal>2</ordinal>
             <local-type>real</local-type>
             <aggregation>Sum</aggregation>
@@ -1291,11 +863,11 @@
             </attributes>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>FEB2017</remote-name>
+            <remote-name>FEB%last_year%</remote-name>
             <remote-type>131</remote-type>
-            <local-name>[FEB2017]</local-name>
+            <local-name>[FEB%last_year%]</local-name>
             <parent-name>[1498]</parent-name>
-            <remote-alias>FEB2017</remote-alias>
+            <remote-alias>FEB%last_year%</remote-alias>
             <ordinal>3</ordinal>
             <local-type>real</local-type>
             <aggregation>Sum</aggregation>
@@ -1308,11 +880,11 @@
             </attributes>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>MAR2017</remote-name>
+            <remote-name>MAR%last_year%</remote-name>
             <remote-type>131</remote-type>
-            <local-name>[MAR2017]</local-name>
+            <local-name>[MAR%last_year%]</local-name>
             <parent-name>[1498]</parent-name>
-            <remote-alias>MAR2017</remote-alias>
+            <remote-alias>MAR%last_year%</remote-alias>
             <ordinal>4</ordinal>
             <local-type>real</local-type>
             <aggregation>Sum</aggregation>
@@ -1325,11 +897,11 @@
             </attributes>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>ABR2017</remote-name>
+            <remote-name>ABR%last_year%</remote-name>
             <remote-type>131</remote-type>
-            <local-name>[ABR2017]</local-name>
+            <local-name>[ABR%last_year%]</local-name>
             <parent-name>[1498]</parent-name>
-            <remote-alias>ABR2017</remote-alias>
+            <remote-alias>ABR%last_year%</remote-alias>
             <ordinal>5</ordinal>
             <local-type>real</local-type>
             <aggregation>Sum</aggregation>
@@ -1342,11 +914,11 @@
             </attributes>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>MAY2017</remote-name>
+            <remote-name>MAY%last_year%</remote-name>
             <remote-type>131</remote-type>
-            <local-name>[MAY2017]</local-name>
+            <local-name>[MAY%last_year%]</local-name>
             <parent-name>[1498]</parent-name>
-            <remote-alias>MAY2017</remote-alias>
+            <remote-alias>MAY%last_year%</remote-alias>
             <ordinal>6</ordinal>
             <local-type>real</local-type>
             <aggregation>Sum</aggregation>
@@ -1359,11 +931,11 @@
             </attributes>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>JUN2017</remote-name>
+            <remote-name>JUN%last_year%</remote-name>
             <remote-type>131</remote-type>
-            <local-name>[JUN2017]</local-name>
+            <local-name>[JUN%last_year%]</local-name>
             <parent-name>[1498]</parent-name>
-            <remote-alias>JUN2017</remote-alias>
+            <remote-alias>JUN%last_year%</remote-alias>
             <ordinal>7</ordinal>
             <local-type>real</local-type>
             <aggregation>Sum</aggregation>
@@ -1376,11 +948,11 @@
             </attributes>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>JUL2017</remote-name>
+            <remote-name>JUL%last_year%</remote-name>
             <remote-type>131</remote-type>
-            <local-name>[JUL2017]</local-name>
+            <local-name>[JUL%last_year%]</local-name>
             <parent-name>[1498]</parent-name>
-            <remote-alias>JUL2017</remote-alias>
+            <remote-alias>JUL%last_year%</remote-alias>
             <ordinal>8</ordinal>
             <local-type>real</local-type>
             <aggregation>Sum</aggregation>
@@ -1393,11 +965,11 @@
             </attributes>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>AGO2017</remote-name>
+            <remote-name>AGO%last_year%</remote-name>
             <remote-type>131</remote-type>
-            <local-name>[AGO2017]</local-name>
+            <local-name>[AGO%last_year%]</local-name>
             <parent-name>[1498]</parent-name>
-            <remote-alias>AGO2017</remote-alias>
+            <remote-alias>AGO%last_year%</remote-alias>
             <ordinal>9</ordinal>
             <local-type>real</local-type>
             <aggregation>Sum</aggregation>
@@ -1410,11 +982,11 @@
             </attributes>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>SET2017</remote-name>
+            <remote-name>SET%last_year%</remote-name>
             <remote-type>131</remote-type>
-            <local-name>[SET2017]</local-name>
+            <local-name>[SET%last_year%]</local-name>
             <parent-name>[1498]</parent-name>
-            <remote-alias>SET2017</remote-alias>
+            <remote-alias>SET%last_year%</remote-alias>
             <ordinal>10</ordinal>
             <local-type>real</local-type>
             <aggregation>Sum</aggregation>
@@ -1427,11 +999,11 @@
             </attributes>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>OCT2017</remote-name>
+            <remote-name>OCT%last_year%</remote-name>
             <remote-type>131</remote-type>
-            <local-name>[OCT2017]</local-name>
+            <local-name>[OCT%last_year%]</local-name>
             <parent-name>[1498]</parent-name>
-            <remote-alias>OCT2017</remote-alias>
+            <remote-alias>OCT%last_year%</remote-alias>
             <ordinal>11</ordinal>
             <local-type>real</local-type>
             <aggregation>Sum</aggregation>
@@ -1444,11 +1016,11 @@
             </attributes>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>NOV2017</remote-name>
+            <remote-name>NOV%last_year%</remote-name>
             <remote-type>131</remote-type>
-            <local-name>[NOV2017]</local-name>
+            <local-name>[NOV%last_year%]</local-name>
             <parent-name>[1498]</parent-name>
-            <remote-alias>NOV2017</remote-alias>
+            <remote-alias>NOV%last_year%</remote-alias>
             <ordinal>12</ordinal>
             <local-type>real</local-type>
             <aggregation>Sum</aggregation>
@@ -1461,11 +1033,11 @@
             </attributes>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>DIC2017</remote-name>
+            <remote-name>DIC%last_year%</remote-name>
             <remote-type>131</remote-type>
-            <local-name>[DIC2017]</local-name>
+            <local-name>[DIC%last_year%]</local-name>
             <parent-name>[1498]</parent-name>
-            <remote-alias>DIC2017</remote-alias>
+            <remote-alias>DIC%last_year%</remote-alias>
             <ordinal>13</ordinal>
             <local-type>real</local-type>
             <aggregation>Sum</aggregation>
@@ -1720,11 +1292,11 @@
             </attributes>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>ENE2017</remote-name>
+            <remote-name>ENE%last_year%</remote-name>
             <remote-type>131</remote-type>
-            <local-name>[ENE2017]</local-name>
+            <local-name>[ENE%last_year%]</local-name>
             <parent-name>[1527]</parent-name>
-            <remote-alias>ENE2017</remote-alias>
+            <remote-alias>ENE%last_year%</remote-alias>
             <ordinal>2</ordinal>
             <local-type>real</local-type>
             <aggregation>Sum</aggregation>
@@ -1737,11 +1309,11 @@
             </attributes>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>FEB2017</remote-name>
+            <remote-name>FEB%last_year%</remote-name>
             <remote-type>131</remote-type>
-            <local-name>[FEB2017]</local-name>
+            <local-name>[FEB%last_year%]</local-name>
             <parent-name>[1527]</parent-name>
-            <remote-alias>FEB2017</remote-alias>
+            <remote-alias>FEB%last_year%</remote-alias>
             <ordinal>3</ordinal>
             <local-type>real</local-type>
             <aggregation>Sum</aggregation>
@@ -1754,11 +1326,11 @@
             </attributes>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>MAR2017</remote-name>
+            <remote-name>MAR%last_year%</remote-name>
             <remote-type>131</remote-type>
-            <local-name>[MAR2017]</local-name>
+            <local-name>[MAR%last_year%]</local-name>
             <parent-name>[1527]</parent-name>
-            <remote-alias>MAR2017</remote-alias>
+            <remote-alias>MAR%last_year%</remote-alias>
             <ordinal>4</ordinal>
             <local-type>real</local-type>
             <aggregation>Sum</aggregation>
@@ -1771,11 +1343,11 @@
             </attributes>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>ABR2017</remote-name>
+            <remote-name>ABR%last_year%</remote-name>
             <remote-type>131</remote-type>
-            <local-name>[ABR2017]</local-name>
+            <local-name>[ABR%last_year%]</local-name>
             <parent-name>[1527]</parent-name>
-            <remote-alias>ABR2017</remote-alias>
+            <remote-alias>ABR%last_year%</remote-alias>
             <ordinal>5</ordinal>
             <local-type>real</local-type>
             <aggregation>Sum</aggregation>
@@ -1788,11 +1360,11 @@
             </attributes>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>MAY2017</remote-name>
+            <remote-name>MAY%last_year%</remote-name>
             <remote-type>131</remote-type>
-            <local-name>[MAY2017]</local-name>
+            <local-name>[MAY%last_year%]</local-name>
             <parent-name>[1527]</parent-name>
-            <remote-alias>MAY2017</remote-alias>
+            <remote-alias>MAY%last_year%</remote-alias>
             <ordinal>6</ordinal>
             <local-type>real</local-type>
             <aggregation>Sum</aggregation>
@@ -1805,11 +1377,11 @@
             </attributes>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>JUN2017</remote-name>
+            <remote-name>JUN%last_year%</remote-name>
             <remote-type>131</remote-type>
-            <local-name>[JUN2017]</local-name>
+            <local-name>[JUN%last_year%]</local-name>
             <parent-name>[1527]</parent-name>
-            <remote-alias>JUN2017</remote-alias>
+            <remote-alias>JUN%last_year%</remote-alias>
             <ordinal>7</ordinal>
             <local-type>real</local-type>
             <aggregation>Sum</aggregation>
@@ -1822,11 +1394,11 @@
             </attributes>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>JUL2017</remote-name>
+            <remote-name>JUL%last_year%</remote-name>
             <remote-type>131</remote-type>
-            <local-name>[JUL2017]</local-name>
+            <local-name>[JUL%last_year%]</local-name>
             <parent-name>[1527]</parent-name>
-            <remote-alias>JUL2017</remote-alias>
+            <remote-alias>JUL%last_year%</remote-alias>
             <ordinal>8</ordinal>
             <local-type>real</local-type>
             <aggregation>Sum</aggregation>
@@ -1839,11 +1411,11 @@
             </attributes>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>AGO2017</remote-name>
+            <remote-name>AGO%last_year%</remote-name>
             <remote-type>131</remote-type>
-            <local-name>[AGO2017]</local-name>
+            <local-name>[AGO%last_year%]</local-name>
             <parent-name>[1527]</parent-name>
-            <remote-alias>AGO2017</remote-alias>
+            <remote-alias>AGO%last_year%</remote-alias>
             <ordinal>9</ordinal>
             <local-type>real</local-type>
             <aggregation>Sum</aggregation>
@@ -1856,11 +1428,11 @@
             </attributes>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>SET2017</remote-name>
+            <remote-name>SET%last_year%</remote-name>
             <remote-type>131</remote-type>
-            <local-name>[SET2017]</local-name>
+            <local-name>[SET%last_year%]</local-name>
             <parent-name>[1527]</parent-name>
-            <remote-alias>SET2017</remote-alias>
+            <remote-alias>SET%last_year%</remote-alias>
             <ordinal>10</ordinal>
             <local-type>real</local-type>
             <aggregation>Sum</aggregation>
@@ -1873,11 +1445,11 @@
             </attributes>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>OCT2017</remote-name>
+            <remote-name>OCT%last_year%</remote-name>
             <remote-type>131</remote-type>
-            <local-name>[OCT2017]</local-name>
+            <local-name>[OCT%last_year%]</local-name>
             <parent-name>[1527]</parent-name>
-            <remote-alias>OCT2017</remote-alias>
+            <remote-alias>OCT%last_year%</remote-alias>
             <ordinal>11</ordinal>
             <local-type>real</local-type>
             <aggregation>Sum</aggregation>
@@ -1890,11 +1462,11 @@
             </attributes>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>NOV2017</remote-name>
+            <remote-name>NOV%last_year%</remote-name>
             <remote-type>131</remote-type>
-            <local-name>[NOV2017]</local-name>
+            <local-name>[NOV%last_year%]</local-name>
             <parent-name>[1527]</parent-name>
-            <remote-alias>NOV2017</remote-alias>
+            <remote-alias>NOV%last_year%</remote-alias>
             <ordinal>12</ordinal>
             <local-type>real</local-type>
             <aggregation>Sum</aggregation>
@@ -1907,11 +1479,11 @@
             </attributes>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>DIC2017</remote-name>
+            <remote-name>DIC%last_year%</remote-name>
             <remote-type>131</remote-type>
-            <local-name>[DIC2017]</local-name>
+            <local-name>[DIC%last_year%]</local-name>
             <parent-name>[1527]</parent-name>
-            <remote-alias>DIC2017</remote-alias>
+            <remote-alias>DIC%last_year%</remote-alias>
             <ordinal>13</ordinal>
             <local-type>real</local-type>
             <aggregation>Sum</aggregation>
@@ -3977,11 +3549,11 @@
             </attributes>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>ENE2017</remote-name>
+            <remote-name>ENE%last_year%</remote-name>
             <remote-type>131</remote-type>
-            <local-name>[ENE2017]</local-name>
+            <local-name>[ENE%last_year%]</local-name>
             <parent-name>[1522]</parent-name>
-            <remote-alias>ENE2017</remote-alias>
+            <remote-alias>ENE%last_year%</remote-alias>
             <ordinal>2</ordinal>
             <local-type>real</local-type>
             <aggregation>Sum</aggregation>
@@ -3994,11 +3566,11 @@
             </attributes>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>FEB2017</remote-name>
+            <remote-name>FEB%last_year%</remote-name>
             <remote-type>131</remote-type>
-            <local-name>[FEB2017]</local-name>
+            <local-name>[FEB%last_year%]</local-name>
             <parent-name>[1522]</parent-name>
-            <remote-alias>FEB2017</remote-alias>
+            <remote-alias>FEB%last_year%</remote-alias>
             <ordinal>3</ordinal>
             <local-type>real</local-type>
             <aggregation>Sum</aggregation>
@@ -4011,11 +3583,11 @@
             </attributes>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>MAR2017</remote-name>
+            <remote-name>MAR%last_year%</remote-name>
             <remote-type>131</remote-type>
-            <local-name>[MAR2017]</local-name>
+            <local-name>[MAR%last_year%]</local-name>
             <parent-name>[1522]</parent-name>
-            <remote-alias>MAR2017</remote-alias>
+            <remote-alias>MAR%last_year%</remote-alias>
             <ordinal>4</ordinal>
             <local-type>real</local-type>
             <aggregation>Sum</aggregation>
@@ -4028,11 +3600,11 @@
             </attributes>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>ABR2017</remote-name>
+            <remote-name>ABR%last_year%</remote-name>
             <remote-type>131</remote-type>
-            <local-name>[ABR2017]</local-name>
+            <local-name>[ABR%last_year%]</local-name>
             <parent-name>[1522]</parent-name>
-            <remote-alias>ABR2017</remote-alias>
+            <remote-alias>ABR%last_year%</remote-alias>
             <ordinal>5</ordinal>
             <local-type>real</local-type>
             <aggregation>Sum</aggregation>
@@ -4045,11 +3617,11 @@
             </attributes>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>MAY2017</remote-name>
+            <remote-name>MAY%last_year%</remote-name>
             <remote-type>131</remote-type>
-            <local-name>[MAY2017]</local-name>
+            <local-name>[MAY%last_year%]</local-name>
             <parent-name>[1522]</parent-name>
-            <remote-alias>MAY2017</remote-alias>
+            <remote-alias>MAY%last_year%</remote-alias>
             <ordinal>6</ordinal>
             <local-type>real</local-type>
             <aggregation>Sum</aggregation>
@@ -4062,11 +3634,11 @@
             </attributes>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>JUN2017</remote-name>
+            <remote-name>JUN%last_year%</remote-name>
             <remote-type>131</remote-type>
-            <local-name>[JUN2017]</local-name>
+            <local-name>[JUN%last_year%]</local-name>
             <parent-name>[1522]</parent-name>
-            <remote-alias>JUN2017</remote-alias>
+            <remote-alias>JUN%last_year%</remote-alias>
             <ordinal>7</ordinal>
             <local-type>real</local-type>
             <aggregation>Sum</aggregation>
@@ -4079,11 +3651,11 @@
             </attributes>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>JUL2017</remote-name>
+            <remote-name>JUL%last_year%</remote-name>
             <remote-type>131</remote-type>
-            <local-name>[JUL2017]</local-name>
+            <local-name>[JUL%last_year%]</local-name>
             <parent-name>[1522]</parent-name>
-            <remote-alias>JUL2017</remote-alias>
+            <remote-alias>JUL%last_year%</remote-alias>
             <ordinal>8</ordinal>
             <local-type>real</local-type>
             <aggregation>Sum</aggregation>
@@ -4096,11 +3668,11 @@
             </attributes>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>AGO2017</remote-name>
+            <remote-name>AGO%last_year%</remote-name>
             <remote-type>131</remote-type>
-            <local-name>[AGO2017]</local-name>
+            <local-name>[AGO%last_year%]</local-name>
             <parent-name>[1522]</parent-name>
-            <remote-alias>AGO2017</remote-alias>
+            <remote-alias>AGO%last_year%</remote-alias>
             <ordinal>9</ordinal>
             <local-type>real</local-type>
             <aggregation>Sum</aggregation>
@@ -4113,11 +3685,11 @@
             </attributes>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>SET2017</remote-name>
+            <remote-name>SET%last_year%</remote-name>
             <remote-type>131</remote-type>
-            <local-name>[SET2017]</local-name>
+            <local-name>[SET%last_year%]</local-name>
             <parent-name>[1522]</parent-name>
-            <remote-alias>SET2017</remote-alias>
+            <remote-alias>SET%last_year%</remote-alias>
             <ordinal>10</ordinal>
             <local-type>real</local-type>
             <aggregation>Sum</aggregation>
@@ -4130,11 +3702,11 @@
             </attributes>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>OCT2017</remote-name>
+            <remote-name>OCT%last_year%</remote-name>
             <remote-type>131</remote-type>
-            <local-name>[OCT2017]</local-name>
+            <local-name>[OCT%last_year%]</local-name>
             <parent-name>[1522]</parent-name>
-            <remote-alias>OCT2017</remote-alias>
+            <remote-alias>OCT%last_year%</remote-alias>
             <ordinal>11</ordinal>
             <local-type>real</local-type>
             <aggregation>Sum</aggregation>
@@ -4147,11 +3719,11 @@
             </attributes>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>NOV2017</remote-name>
+            <remote-name>NOV%last_year%</remote-name>
             <remote-type>131</remote-type>
-            <local-name>[NOV2017]</local-name>
+            <local-name>[NOV%last_year%]</local-name>
             <parent-name>[1522]</parent-name>
-            <remote-alias>NOV2017</remote-alias>
+            <remote-alias>NOV%last_year%</remote-alias>
             <ordinal>12</ordinal>
             <local-type>real</local-type>
             <aggregation>Sum</aggregation>
@@ -4164,11 +3736,11 @@
             </attributes>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>DIC2017</remote-name>
+            <remote-name>DIC%last_year%</remote-name>
             <remote-type>131</remote-type>
-            <local-name>[DIC2017]</local-name>
+            <local-name>[DIC%last_year%]</local-name>
             <parent-name>[1522]</parent-name>
-            <remote-alias>DIC2017</remote-alias>
+            <remote-alias>DIC%last_year%</remote-alias>
             <ordinal>13</ordinal>
             <local-type>real</local-type>
             <aggregation>Sum</aggregation>
@@ -4423,11 +3995,11 @@
             </attributes>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>ENE2017</remote-name>
+            <remote-name>ENE%last_year%</remote-name>
             <remote-type>5</remote-type>
-            <local-name>[ENE2017]</local-name>
+            <local-name>[ENE%last_year%]</local-name>
             <parent-name>[138]</parent-name>
-            <remote-alias>ENE2017</remote-alias>
+            <remote-alias>ENE%last_year%</remote-alias>
             <ordinal>2</ordinal>
             <local-type>real</local-type>
             <aggregation>Sum</aggregation>
@@ -4438,11 +4010,11 @@
             </attributes>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>FEB2017</remote-name>
+            <remote-name>FEB%last_year%</remote-name>
             <remote-type>5</remote-type>
-            <local-name>[FEB2017]</local-name>
+            <local-name>[FEB%last_year%]</local-name>
             <parent-name>[138]</parent-name>
-            <remote-alias>FEB2017</remote-alias>
+            <remote-alias>FEB%last_year%</remote-alias>
             <ordinal>3</ordinal>
             <local-type>real</local-type>
             <aggregation>Sum</aggregation>
@@ -4453,11 +4025,11 @@
             </attributes>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>MAR2017</remote-name>
+            <remote-name>MAR%last_year%</remote-name>
             <remote-type>5</remote-type>
-            <local-name>[MAR2017]</local-name>
+            <local-name>[MAR%last_year%]</local-name>
             <parent-name>[138]</parent-name>
-            <remote-alias>MAR2017</remote-alias>
+            <remote-alias>MAR%last_year%</remote-alias>
             <ordinal>4</ordinal>
             <local-type>real</local-type>
             <aggregation>Sum</aggregation>
@@ -4468,11 +4040,11 @@
             </attributes>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>ABR2017</remote-name>
+            <remote-name>ABR%last_year%</remote-name>
             <remote-type>5</remote-type>
-            <local-name>[ABR2017]</local-name>
+            <local-name>[ABR%last_year%]</local-name>
             <parent-name>[138]</parent-name>
-            <remote-alias>ABR2017</remote-alias>
+            <remote-alias>ABR%last_year%</remote-alias>
             <ordinal>5</ordinal>
             <local-type>real</local-type>
             <aggregation>Sum</aggregation>
@@ -4483,11 +4055,11 @@
             </attributes>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>MAY2017</remote-name>
+            <remote-name>MAY%last_year%</remote-name>
             <remote-type>5</remote-type>
-            <local-name>[MAY2017]</local-name>
+            <local-name>[MAY%last_year%]</local-name>
             <parent-name>[138]</parent-name>
-            <remote-alias>MAY2017</remote-alias>
+            <remote-alias>MAY%last_year%</remote-alias>
             <ordinal>6</ordinal>
             <local-type>real</local-type>
             <aggregation>Sum</aggregation>
@@ -4498,11 +4070,11 @@
             </attributes>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>JUN2017</remote-name>
+            <remote-name>JUN%last_year%</remote-name>
             <remote-type>5</remote-type>
-            <local-name>[JUN2017]</local-name>
+            <local-name>[JUN%last_year%]</local-name>
             <parent-name>[138]</parent-name>
-            <remote-alias>JUN2017</remote-alias>
+            <remote-alias>JUN%last_year%</remote-alias>
             <ordinal>7</ordinal>
             <local-type>real</local-type>
             <aggregation>Sum</aggregation>
@@ -4513,11 +4085,11 @@
             </attributes>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>JUL2017</remote-name>
+            <remote-name>JUL%last_year%</remote-name>
             <remote-type>5</remote-type>
-            <local-name>[JUL2017]</local-name>
+            <local-name>[JUL%last_year%]</local-name>
             <parent-name>[138]</parent-name>
-            <remote-alias>JUL2017</remote-alias>
+            <remote-alias>JUL%last_year%</remote-alias>
             <ordinal>8</ordinal>
             <local-type>real</local-type>
             <aggregation>Sum</aggregation>
@@ -4528,11 +4100,11 @@
             </attributes>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>AGO2017</remote-name>
+            <remote-name>AGO%last_year%</remote-name>
             <remote-type>5</remote-type>
-            <local-name>[AGO2017]</local-name>
+            <local-name>[AGO%last_year%]</local-name>
             <parent-name>[138]</parent-name>
-            <remote-alias>AGO2017</remote-alias>
+            <remote-alias>AGO%last_year%</remote-alias>
             <ordinal>9</ordinal>
             <local-type>real</local-type>
             <aggregation>Sum</aggregation>
@@ -4543,11 +4115,11 @@
             </attributes>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>SET2017</remote-name>
+            <remote-name>SET%last_year%</remote-name>
             <remote-type>5</remote-type>
-            <local-name>[SET2017]</local-name>
+            <local-name>[SET%last_year%]</local-name>
             <parent-name>[138]</parent-name>
-            <remote-alias>SET2017</remote-alias>
+            <remote-alias>SET%last_year%</remote-alias>
             <ordinal>10</ordinal>
             <local-type>real</local-type>
             <aggregation>Sum</aggregation>
@@ -4558,11 +4130,11 @@
             </attributes>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>OCT2017</remote-name>
+            <remote-name>OCT%last_year%</remote-name>
             <remote-type>5</remote-type>
-            <local-name>[OCT2017]</local-name>
+            <local-name>[OCT%last_year%]</local-name>
             <parent-name>[138]</parent-name>
-            <remote-alias>OCT2017</remote-alias>
+            <remote-alias>OCT%last_year%</remote-alias>
             <ordinal>11</ordinal>
             <local-type>real</local-type>
             <aggregation>Sum</aggregation>
@@ -4573,11 +4145,11 @@
             </attributes>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>NOV2017</remote-name>
+            <remote-name>NOV%last_year%</remote-name>
             <remote-type>5</remote-type>
-            <local-name>[NOV2017]</local-name>
+            <local-name>[NOV%last_year%]</local-name>
             <parent-name>[138]</parent-name>
-            <remote-alias>NOV2017</remote-alias>
+            <remote-alias>NOV%last_year%</remote-alias>
             <ordinal>12</ordinal>
             <local-type>real</local-type>
             <aggregation>Sum</aggregation>
@@ -4588,11 +4160,11 @@
             </attributes>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>DIC2017</remote-name>
+            <remote-name>DIC%last_year%</remote-name>
             <remote-type>5</remote-type>
-            <local-name>[DIC2017]</local-name>
+            <local-name>[DIC%last_year%]</local-name>
             <parent-name>[138]</parent-name>
-            <remote-alias>DIC2017</remote-alias>
+            <remote-alias>DIC%last_year%</remote-alias>
             <ordinal>13</ordinal>
             <local-type>real</local-type>
             <aggregation>Sum</aggregation>
@@ -5607,434 +5179,6 @@
           </named-connection>
         </named-connections>
         <relation connection='mysql.0eux02b0rdm6dj17yegbo161ehhr' name='1498' type='text'>%fb_posts_02%</relation>
-        <metadata-records>
-          <metadata-record class='column'>
-            <remote-name>type</remote-name>
-            <remote-type>129</remote-type>
-            <local-name>[type]</local-name>
-            <parent-name>[1498]</parent-name>
-            <remote-alias>type</remote-alias>
-            <ordinal>1</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <width>50</width>
-            <contains-null>false</contains-null>
-            <collation flag='0' name='LROOT' />
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
-              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
-              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>ENE2017</remote-name>
-            <remote-type>131</remote-type>
-            <local-name>[ENE2017]</local-name>
-            <parent-name>[1498]</parent-name>
-            <remote-alias>ENE2017</remote-alias>
-            <ordinal>2</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <precision>23</precision>
-            <scale>0</scale>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DECIMAL&quot;</attribute>
-              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>FEB2017</remote-name>
-            <remote-type>131</remote-type>
-            <local-name>[FEB2017]</local-name>
-            <parent-name>[1498]</parent-name>
-            <remote-alias>FEB2017</remote-alias>
-            <ordinal>3</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <precision>23</precision>
-            <scale>0</scale>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DECIMAL&quot;</attribute>
-              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>MAR2017</remote-name>
-            <remote-type>131</remote-type>
-            <local-name>[MAR2017]</local-name>
-            <parent-name>[1498]</parent-name>
-            <remote-alias>MAR2017</remote-alias>
-            <ordinal>4</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <precision>23</precision>
-            <scale>0</scale>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DECIMAL&quot;</attribute>
-              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>ABR2017</remote-name>
-            <remote-type>131</remote-type>
-            <local-name>[ABR2017]</local-name>
-            <parent-name>[1498]</parent-name>
-            <remote-alias>ABR2017</remote-alias>
-            <ordinal>5</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <precision>23</precision>
-            <scale>0</scale>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DECIMAL&quot;</attribute>
-              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>MAY2017</remote-name>
-            <remote-type>131</remote-type>
-            <local-name>[MAY2017]</local-name>
-            <parent-name>[1498]</parent-name>
-            <remote-alias>MAY2017</remote-alias>
-            <ordinal>6</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <precision>23</precision>
-            <scale>0</scale>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DECIMAL&quot;</attribute>
-              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>JUN2017</remote-name>
-            <remote-type>131</remote-type>
-            <local-name>[JUN2017]</local-name>
-            <parent-name>[1498]</parent-name>
-            <remote-alias>JUN2017</remote-alias>
-            <ordinal>7</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <precision>23</precision>
-            <scale>0</scale>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DECIMAL&quot;</attribute>
-              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>JUL2017</remote-name>
-            <remote-type>131</remote-type>
-            <local-name>[JUL2017]</local-name>
-            <parent-name>[1498]</parent-name>
-            <remote-alias>JUL2017</remote-alias>
-            <ordinal>8</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <precision>23</precision>
-            <scale>0</scale>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DECIMAL&quot;</attribute>
-              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>AGO2017</remote-name>
-            <remote-type>131</remote-type>
-            <local-name>[AGO2017]</local-name>
-            <parent-name>[1498]</parent-name>
-            <remote-alias>AGO2017</remote-alias>
-            <ordinal>9</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <precision>23</precision>
-            <scale>0</scale>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DECIMAL&quot;</attribute>
-              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>SET2017</remote-name>
-            <remote-type>131</remote-type>
-            <local-name>[SET2017]</local-name>
-            <parent-name>[1498]</parent-name>
-            <remote-alias>SET2017</remote-alias>
-            <ordinal>10</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <precision>23</precision>
-            <scale>0</scale>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DECIMAL&quot;</attribute>
-              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>OCT2017</remote-name>
-            <remote-type>131</remote-type>
-            <local-name>[OCT2017]</local-name>
-            <parent-name>[1498]</parent-name>
-            <remote-alias>OCT2017</remote-alias>
-            <ordinal>11</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <precision>23</precision>
-            <scale>0</scale>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DECIMAL&quot;</attribute>
-              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>NOV2017</remote-name>
-            <remote-type>131</remote-type>
-            <local-name>[NOV2017]</local-name>
-            <parent-name>[1498]</parent-name>
-            <remote-alias>NOV2017</remote-alias>
-            <ordinal>12</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <precision>23</precision>
-            <scale>0</scale>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DECIMAL&quot;</attribute>
-              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>DIC2017</remote-name>
-            <remote-type>131</remote-type>
-            <local-name>[DIC2017]</local-name>
-            <parent-name>[1498]</parent-name>
-            <remote-alias>DIC2017</remote-alias>
-            <ordinal>13</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <precision>23</precision>
-            <scale>0</scale>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DECIMAL&quot;</attribute>
-              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>ENE%actual_year%</remote-name>
-            <remote-type>131</remote-type>
-            <local-name>[ENE%actual_year%]</local-name>
-            <parent-name>[1498]</parent-name>
-            <remote-alias>ENE%actual_year%</remote-alias>
-            <ordinal>14</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <precision>23</precision>
-            <scale>0</scale>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DECIMAL&quot;</attribute>
-              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>FEB%actual_year%</remote-name>
-            <remote-type>131</remote-type>
-            <local-name>[FEB%actual_year%]</local-name>
-            <parent-name>[1498]</parent-name>
-            <remote-alias>FEB%actual_year%</remote-alias>
-            <ordinal>15</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <precision>23</precision>
-            <scale>0</scale>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DECIMAL&quot;</attribute>
-              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>MAR%actual_year%</remote-name>
-            <remote-type>131</remote-type>
-            <local-name>[MAR%actual_year%]</local-name>
-            <parent-name>[1498]</parent-name>
-            <remote-alias>MAR%actual_year%</remote-alias>
-            <ordinal>16</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <precision>23</precision>
-            <scale>0</scale>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DECIMAL&quot;</attribute>
-              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>ABR%actual_year%</remote-name>
-            <remote-type>131</remote-type>
-            <local-name>[ABR%actual_year%]</local-name>
-            <parent-name>[1498]</parent-name>
-            <remote-alias>ABR%actual_year%</remote-alias>
-            <ordinal>17</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <precision>23</precision>
-            <scale>0</scale>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DECIMAL&quot;</attribute>
-              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>MAY%actual_year%</remote-name>
-            <remote-type>131</remote-type>
-            <local-name>[MAY%actual_year%]</local-name>
-            <parent-name>[1498]</parent-name>
-            <remote-alias>MAY%actual_year%</remote-alias>
-            <ordinal>18</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <precision>23</precision>
-            <scale>0</scale>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DECIMAL&quot;</attribute>
-              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>JUN%actual_year%</remote-name>
-            <remote-type>131</remote-type>
-            <local-name>[JUN%actual_year%]</local-name>
-            <parent-name>[1498]</parent-name>
-            <remote-alias>JUN%actual_year%</remote-alias>
-            <ordinal>19</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <precision>23</precision>
-            <scale>0</scale>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DECIMAL&quot;</attribute>
-              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>JUL%actual_year%</remote-name>
-            <remote-type>131</remote-type>
-            <local-name>[JUL%actual_year%]</local-name>
-            <parent-name>[1498]</parent-name>
-            <remote-alias>JUL%actual_year%</remote-alias>
-            <ordinal>20</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <precision>23</precision>
-            <scale>0</scale>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DECIMAL&quot;</attribute>
-              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>AGO%actual_year%</remote-name>
-            <remote-type>131</remote-type>
-            <local-name>[AGO%actual_year%]</local-name>
-            <parent-name>[1498]</parent-name>
-            <remote-alias>AGO%actual_year%</remote-alias>
-            <ordinal>21</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <precision>23</precision>
-            <scale>0</scale>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DECIMAL&quot;</attribute>
-              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>SET%actual_year%</remote-name>
-            <remote-type>131</remote-type>
-            <local-name>[SET%actual_year%]</local-name>
-            <parent-name>[1498]</parent-name>
-            <remote-alias>SET%actual_year%</remote-alias>
-            <ordinal>22</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <precision>23</precision>
-            <scale>0</scale>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DECIMAL&quot;</attribute>
-              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>OCT%actual_year%</remote-name>
-            <remote-type>131</remote-type>
-            <local-name>[OCT%actual_year%]</local-name>
-            <parent-name>[1498]</parent-name>
-            <remote-alias>OCT%actual_year%</remote-alias>
-            <ordinal>23</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <precision>23</precision>
-            <scale>0</scale>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DECIMAL&quot;</attribute>
-              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>NOV%actual_year%</remote-name>
-            <remote-type>131</remote-type>
-            <local-name>[NOV%actual_year%]</local-name>
-            <parent-name>[1498]</parent-name>
-            <remote-alias>NOV%actual_year%</remote-alias>
-            <ordinal>24</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <precision>23</precision>
-            <scale>0</scale>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DECIMAL&quot;</attribute>
-              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>DIC%actual_year%</remote-name>
-            <remote-type>131</remote-type>
-            <local-name>[DIC%actual_year%]</local-name>
-            <parent-name>[1498]</parent-name>
-            <remote-alias>DIC%actual_year%</remote-alias>
-            <ordinal>25</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <precision>23</precision>
-            <scale>0</scale>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DECIMAL&quot;</attribute>
-              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
-            </attributes>
-          </metadata-record>
-        </metadata-records>
       </connection>
       <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
         <calculation class='tableau' formula='1' />
@@ -6596,11 +5740,11 @@
             </attributes>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>ENE2017</remote-name>
+            <remote-name>ENE%last_year%</remote-name>
             <remote-type>5</remote-type>
-            <local-name>[ENE2017]</local-name>
+            <local-name>[ENE%last_year%]</local-name>
             <parent-name>[1514]</parent-name>
-            <remote-alias>ENE2017</remote-alias>
+            <remote-alias>ENE%last_year%</remote-alias>
             <ordinal>2</ordinal>
             <local-type>real</local-type>
             <aggregation>Sum</aggregation>
@@ -6611,11 +5755,11 @@
             </attributes>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>FEB2017</remote-name>
+            <remote-name>FEB%last_year%</remote-name>
             <remote-type>5</remote-type>
-            <local-name>[FEB2017]</local-name>
+            <local-name>[FEB%last_year%]</local-name>
             <parent-name>[1514]</parent-name>
-            <remote-alias>FEB2017</remote-alias>
+            <remote-alias>FEB%last_year%</remote-alias>
             <ordinal>3</ordinal>
             <local-type>real</local-type>
             <aggregation>Sum</aggregation>
@@ -6626,11 +5770,11 @@
             </attributes>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>MAR2017</remote-name>
+            <remote-name>MAR%last_year%</remote-name>
             <remote-type>5</remote-type>
-            <local-name>[MAR2017]</local-name>
+            <local-name>[MAR%last_year%]</local-name>
             <parent-name>[1514]</parent-name>
-            <remote-alias>MAR2017</remote-alias>
+            <remote-alias>MAR%last_year%</remote-alias>
             <ordinal>4</ordinal>
             <local-type>real</local-type>
             <aggregation>Sum</aggregation>
@@ -6641,11 +5785,11 @@
             </attributes>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>ABR2017</remote-name>
+            <remote-name>ABR%last_year%</remote-name>
             <remote-type>5</remote-type>
-            <local-name>[ABR2017]</local-name>
+            <local-name>[ABR%last_year%]</local-name>
             <parent-name>[1514]</parent-name>
-            <remote-alias>ABR2017</remote-alias>
+            <remote-alias>ABR%last_year%</remote-alias>
             <ordinal>5</ordinal>
             <local-type>real</local-type>
             <aggregation>Sum</aggregation>
@@ -6656,11 +5800,11 @@
             </attributes>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>MAY2017</remote-name>
+            <remote-name>MAY%last_year%</remote-name>
             <remote-type>5</remote-type>
-            <local-name>[MAY2017]</local-name>
+            <local-name>[MAY%last_year%]</local-name>
             <parent-name>[1514]</parent-name>
-            <remote-alias>MAY2017</remote-alias>
+            <remote-alias>MAY%last_year%</remote-alias>
             <ordinal>6</ordinal>
             <local-type>real</local-type>
             <aggregation>Sum</aggregation>
@@ -6671,11 +5815,11 @@
             </attributes>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>JUN2017</remote-name>
+            <remote-name>JUN%last_year%</remote-name>
             <remote-type>5</remote-type>
-            <local-name>[JUN2017]</local-name>
+            <local-name>[JUN%last_year%]</local-name>
             <parent-name>[1514]</parent-name>
-            <remote-alias>JUN2017</remote-alias>
+            <remote-alias>JUN%last_year%</remote-alias>
             <ordinal>7</ordinal>
             <local-type>real</local-type>
             <aggregation>Sum</aggregation>
@@ -6686,11 +5830,11 @@
             </attributes>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>JUL2017</remote-name>
+            <remote-name>JUL%last_year%</remote-name>
             <remote-type>5</remote-type>
-            <local-name>[JUL2017]</local-name>
+            <local-name>[JUL%last_year%]</local-name>
             <parent-name>[1514]</parent-name>
-            <remote-alias>JUL2017</remote-alias>
+            <remote-alias>JUL%last_year%</remote-alias>
             <ordinal>8</ordinal>
             <local-type>real</local-type>
             <aggregation>Sum</aggregation>
@@ -6701,11 +5845,11 @@
             </attributes>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>AGO2017</remote-name>
+            <remote-name>AGO%last_year%</remote-name>
             <remote-type>5</remote-type>
-            <local-name>[AGO2017]</local-name>
+            <local-name>[AGO%last_year%]</local-name>
             <parent-name>[1514]</parent-name>
-            <remote-alias>AGO2017</remote-alias>
+            <remote-alias>AGO%last_year%</remote-alias>
             <ordinal>9</ordinal>
             <local-type>real</local-type>
             <aggregation>Sum</aggregation>
@@ -6716,11 +5860,11 @@
             </attributes>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>SET2017</remote-name>
+            <remote-name>SET%last_year%</remote-name>
             <remote-type>5</remote-type>
-            <local-name>[SET2017]</local-name>
+            <local-name>[SET%last_year%]</local-name>
             <parent-name>[1514]</parent-name>
-            <remote-alias>SET2017</remote-alias>
+            <remote-alias>SET%last_year%</remote-alias>
             <ordinal>10</ordinal>
             <local-type>real</local-type>
             <aggregation>Sum</aggregation>
@@ -6731,11 +5875,11 @@
             </attributes>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>OCT2017</remote-name>
+            <remote-name>OCT%last_year%</remote-name>
             <remote-type>5</remote-type>
-            <local-name>[OCT2017]</local-name>
+            <local-name>[OCT%last_year%]</local-name>
             <parent-name>[1514]</parent-name>
-            <remote-alias>OCT2017</remote-alias>
+            <remote-alias>OCT%last_year%</remote-alias>
             <ordinal>11</ordinal>
             <local-type>real</local-type>
             <aggregation>Sum</aggregation>
@@ -6746,11 +5890,11 @@
             </attributes>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>NOV2017</remote-name>
+            <remote-name>NOV%last_year%</remote-name>
             <remote-type>5</remote-type>
-            <local-name>[NOV2017]</local-name>
+            <local-name>[NOV%last_year%]</local-name>
             <parent-name>[1514]</parent-name>
-            <remote-alias>NOV2017</remote-alias>
+            <remote-alias>NOV%last_year%</remote-alias>
             <ordinal>12</ordinal>
             <local-type>real</local-type>
             <aggregation>Sum</aggregation>
@@ -6761,11 +5905,11 @@
             </attributes>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>DIC2017</remote-name>
+            <remote-name>DIC%last_year%</remote-name>
             <remote-type>5</remote-type>
-            <local-name>[DIC2017]</local-name>
+            <local-name>[DIC%last_year%]</local-name>
             <parent-name>[1514]</parent-name>
-            <remote-alias>DIC2017</remote-alias>
+            <remote-alias>DIC%last_year%</remote-alias>
             <ordinal>13</ordinal>
             <local-type>real</local-type>
             <aggregation>Sum</aggregation>
@@ -7497,11 +6641,11 @@
             </attributes>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>ENE2017</remote-name>
+            <remote-name>ENE%last_year%</remote-name>
             <remote-type>5</remote-type>
-            <local-name>[ENE2017]</local-name>
+            <local-name>[ENE%last_year%]</local-name>
             <parent-name>[1512]</parent-name>
-            <remote-alias>ENE2017</remote-alias>
+            <remote-alias>ENE%last_year%</remote-alias>
             <ordinal>2</ordinal>
             <local-type>real</local-type>
             <aggregation>Sum</aggregation>
@@ -7512,11 +6656,11 @@
             </attributes>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>FEB2017</remote-name>
+            <remote-name>FEB%last_year%</remote-name>
             <remote-type>5</remote-type>
-            <local-name>[FEB2017]</local-name>
+            <local-name>[FEB%last_year%]</local-name>
             <parent-name>[1512]</parent-name>
-            <remote-alias>FEB2017</remote-alias>
+            <remote-alias>FEB%last_year%</remote-alias>
             <ordinal>3</ordinal>
             <local-type>real</local-type>
             <aggregation>Sum</aggregation>
@@ -7527,11 +6671,11 @@
             </attributes>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>MAR2017</remote-name>
+            <remote-name>MAR%last_year%</remote-name>
             <remote-type>5</remote-type>
-            <local-name>[MAR2017]</local-name>
+            <local-name>[MAR%last_year%]</local-name>
             <parent-name>[1512]</parent-name>
-            <remote-alias>MAR2017</remote-alias>
+            <remote-alias>MAR%last_year%</remote-alias>
             <ordinal>4</ordinal>
             <local-type>real</local-type>
             <aggregation>Sum</aggregation>
@@ -7542,11 +6686,11 @@
             </attributes>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>ABR2017</remote-name>
+            <remote-name>ABR%last_year%</remote-name>
             <remote-type>5</remote-type>
-            <local-name>[ABR2017]</local-name>
+            <local-name>[ABR%last_year%]</local-name>
             <parent-name>[1512]</parent-name>
-            <remote-alias>ABR2017</remote-alias>
+            <remote-alias>ABR%last_year%</remote-alias>
             <ordinal>5</ordinal>
             <local-type>real</local-type>
             <aggregation>Sum</aggregation>
@@ -7557,11 +6701,11 @@
             </attributes>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>MAY2017</remote-name>
+            <remote-name>MAY%last_year%</remote-name>
             <remote-type>5</remote-type>
-            <local-name>[MAY2017]</local-name>
+            <local-name>[MAY%last_year%]</local-name>
             <parent-name>[1512]</parent-name>
-            <remote-alias>MAY2017</remote-alias>
+            <remote-alias>MAY%last_year%</remote-alias>
             <ordinal>6</ordinal>
             <local-type>real</local-type>
             <aggregation>Sum</aggregation>
@@ -7572,11 +6716,11 @@
             </attributes>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>JUN2017</remote-name>
+            <remote-name>JUN%last_year%</remote-name>
             <remote-type>5</remote-type>
-            <local-name>[JUN2017]</local-name>
+            <local-name>[JUN%last_year%]</local-name>
             <parent-name>[1512]</parent-name>
-            <remote-alias>JUN2017</remote-alias>
+            <remote-alias>JUN%last_year%</remote-alias>
             <ordinal>7</ordinal>
             <local-type>real</local-type>
             <aggregation>Sum</aggregation>
@@ -7587,11 +6731,11 @@
             </attributes>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>JUL2017</remote-name>
+            <remote-name>JUL%last_year%</remote-name>
             <remote-type>5</remote-type>
-            <local-name>[JUL2017]</local-name>
+            <local-name>[JUL%last_year%]</local-name>
             <parent-name>[1512]</parent-name>
-            <remote-alias>JUL2017</remote-alias>
+            <remote-alias>JUL%last_year%</remote-alias>
             <ordinal>8</ordinal>
             <local-type>real</local-type>
             <aggregation>Sum</aggregation>
@@ -7602,11 +6746,11 @@
             </attributes>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>AGO2017</remote-name>
+            <remote-name>AGO%last_year%</remote-name>
             <remote-type>5</remote-type>
-            <local-name>[AGO2017]</local-name>
+            <local-name>[AGO%last_year%]</local-name>
             <parent-name>[1512]</parent-name>
-            <remote-alias>AGO2017</remote-alias>
+            <remote-alias>AGO%last_year%</remote-alias>
             <ordinal>9</ordinal>
             <local-type>real</local-type>
             <aggregation>Sum</aggregation>
@@ -7617,11 +6761,11 @@
             </attributes>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>SET2017</remote-name>
+            <remote-name>SET%last_year%</remote-name>
             <remote-type>5</remote-type>
-            <local-name>[SET2017]</local-name>
+            <local-name>[SET%last_year%]</local-name>
             <parent-name>[1512]</parent-name>
-            <remote-alias>SET2017</remote-alias>
+            <remote-alias>SET%last_year%</remote-alias>
             <ordinal>10</ordinal>
             <local-type>real</local-type>
             <aggregation>Sum</aggregation>
@@ -7632,11 +6776,11 @@
             </attributes>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>OCT2017</remote-name>
+            <remote-name>OCT%last_year%</remote-name>
             <remote-type>5</remote-type>
-            <local-name>[OCT2017]</local-name>
+            <local-name>[OCT%last_year%]</local-name>
             <parent-name>[1512]</parent-name>
-            <remote-alias>OCT2017</remote-alias>
+            <remote-alias>OCT%last_year%</remote-alias>
             <ordinal>11</ordinal>
             <local-type>real</local-type>
             <aggregation>Sum</aggregation>
@@ -7647,11 +6791,11 @@
             </attributes>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>NOV2017</remote-name>
+            <remote-name>NOV%last_year%</remote-name>
             <remote-type>5</remote-type>
-            <local-name>[NOV2017]</local-name>
+            <local-name>[NOV%last_year%]</local-name>
             <parent-name>[1512]</parent-name>
-            <remote-alias>NOV2017</remote-alias>
+            <remote-alias>NOV%last_year%</remote-alias>
             <ordinal>12</ordinal>
             <local-type>real</local-type>
             <aggregation>Sum</aggregation>
@@ -7662,11 +6806,11 @@
             </attributes>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>DIC2017</remote-name>
+            <remote-name>DIC%last_year%</remote-name>
             <remote-type>5</remote-type>
-            <local-name>[DIC2017]</local-name>
+            <local-name>[DIC%last_year%]</local-name>
             <parent-name>[1512]</parent-name>
-            <remote-alias>DIC2017</remote-alias>
+            <remote-alias>DIC%last_year%</remote-alias>
             <ordinal>13</ordinal>
             <local-type>real</local-type>
             <aggregation>Sum</aggregation>
@@ -8797,71 +7941,71 @@
             <datasource caption='fb_impressions_2' name='federated.1kzofim1rpcwgg179q5kt1ics8iz' />
           </datasources>
           <datasource-dependencies datasource='federated.1kzofim1rpcwgg179q5kt1ics8iz'>
-            <column datatype='real' name='[ABR2017]' role='measure' type='quantitative' />
+            <column datatype='real' name='[ABR%last_year%]' role='measure' type='quantitative' />
             <column datatype='real' name='[ABR%actual_year%]' role='measure' type='quantitative' />
-            <column datatype='real' name='[AGO2017]' role='measure' type='quantitative' />
+            <column datatype='real' name='[AGO%last_year%]' role='measure' type='quantitative' />
             <column datatype='real' name='[AGO%actual_year%]' role='measure' type='quantitative' />
-            <column datatype='real' name='[DIC2017]' role='measure' type='quantitative' />
+            <column datatype='real' name='[DIC%last_year%]' role='measure' type='quantitative' />
             <column datatype='real' name='[DIC%actual_year%]' role='measure' type='quantitative' />
-            <column datatype='real' name='[ENE2017]' role='measure' type='quantitative' />
+            <column datatype='real' name='[ENE%last_year%]' role='measure' type='quantitative' />
             <column datatype='real' name='[ENE%actual_year%]' role='measure' type='quantitative' />
-            <column datatype='real' name='[FEB2017]' role='measure' type='quantitative' />
+            <column datatype='real' name='[FEB%last_year%]' role='measure' type='quantitative' />
             <column datatype='real' name='[FEB%actual_year%]' role='measure' type='quantitative' />
-            <column datatype='real' name='[JUL2017]' role='measure' type='quantitative' />
+            <column datatype='real' name='[JUL%last_year%]' role='measure' type='quantitative' />
             <column datatype='real' name='[JUL%actual_year%]' role='measure' type='quantitative' />
-            <column datatype='real' name='[JUN2017]' role='measure' type='quantitative' />
+            <column datatype='real' name='[JUN%last_year%]' role='measure' type='quantitative' />
             <column datatype='real' name='[JUN%actual_year%]' role='measure' type='quantitative' />
-            <column datatype='real' name='[MAR2017]' role='measure' type='quantitative' />
+            <column datatype='real' name='[MAR%last_year%]' role='measure' type='quantitative' />
             <column datatype='real' name='[MAR%actual_year%]' role='measure' type='quantitative' />
-            <column datatype='real' name='[MAY2017]' role='measure' type='quantitative' />
+            <column datatype='real' name='[MAY%last_year%]' role='measure' type='quantitative' />
             <column datatype='real' name='[MAY%actual_year%]' role='measure' type='quantitative' />
-            <column datatype='real' name='[NOV2017]' role='measure' type='quantitative' />
+            <column datatype='real' name='[NOV%last_year%]' role='measure' type='quantitative' />
             <column datatype='real' name='[NOV%actual_year%]' role='measure' type='quantitative' />
-            <column datatype='real' name='[OCT2017]' role='measure' type='quantitative' />
+            <column datatype='real' name='[OCT%last_year%]' role='measure' type='quantitative' />
             <column datatype='real' name='[OCT%actual_year%]' role='measure' type='quantitative' />
-            <column datatype='real' name='[SET2017]' role='measure' type='quantitative' />
+            <column datatype='real' name='[SET%last_year%]' role='measure' type='quantitative' />
             <column datatype='real' name='[SET%actual_year%]' role='measure' type='quantitative' />
             <column datatype='string' name='[TIPO]' role='dimension' type='nominal' />
             <column-instance column='[TIPO]' derivation='None' name='[none:TIPO:nk]' pivot='key' type='nominal' />
-            <column-instance column='[ABR2017]' derivation='Sum' name='[sum:ABR2017:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[ABR%last_year%]' derivation='Sum' name='[sum:ABR%last_year%:qk]' pivot='key' type='quantitative' />
             <column-instance column='[ABR%actual_year%]' derivation='Sum' name='[sum:ABR%actual_year%:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[AGO2017]' derivation='Sum' name='[sum:AGO2017:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[AGO%last_year%]' derivation='Sum' name='[sum:AGO%last_year%:qk]' pivot='key' type='quantitative' />
             <column-instance column='[AGO%actual_year%]' derivation='Sum' name='[sum:AGO%actual_year%:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[DIC2017]' derivation='Sum' name='[sum:DIC2017:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[DIC%last_year%]' derivation='Sum' name='[sum:DIC%last_year%:qk]' pivot='key' type='quantitative' />
             <column-instance column='[DIC%actual_year%]' derivation='Sum' name='[sum:DIC%actual_year%:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[ENE2017]' derivation='Sum' name='[sum:ENE2017:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[ENE%last_year%]' derivation='Sum' name='[sum:ENE%last_year%:qk]' pivot='key' type='quantitative' />
             <column-instance column='[ENE%actual_year%]' derivation='Sum' name='[sum:ENE%actual_year%:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[FEB2017]' derivation='Sum' name='[sum:FEB2017:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[FEB%last_year%]' derivation='Sum' name='[sum:FEB%last_year%:qk]' pivot='key' type='quantitative' />
             <column-instance column='[FEB%actual_year%]' derivation='Sum' name='[sum:FEB%actual_year%:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[JUL2017]' derivation='Sum' name='[sum:JUL2017:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[JUL%last_year%]' derivation='Sum' name='[sum:JUL%last_year%:qk]' pivot='key' type='quantitative' />
             <column-instance column='[JUL%actual_year%]' derivation='Sum' name='[sum:JUL%actual_year%:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[JUN2017]' derivation='Sum' name='[sum:JUN2017:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[JUN%last_year%]' derivation='Sum' name='[sum:JUN%last_year%:qk]' pivot='key' type='quantitative' />
             <column-instance column='[JUN%actual_year%]' derivation='Sum' name='[sum:JUN%actual_year%:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[MAR2017]' derivation='Sum' name='[sum:MAR2017:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[MAR%last_year%]' derivation='Sum' name='[sum:MAR%last_year%:qk]' pivot='key' type='quantitative' />
             <column-instance column='[MAR%actual_year%]' derivation='Sum' name='[sum:MAR%actual_year%:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[MAY2017]' derivation='Sum' name='[sum:MAY2017:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[MAY%last_year%]' derivation='Sum' name='[sum:MAY%last_year%:qk]' pivot='key' type='quantitative' />
             <column-instance column='[MAY%actual_year%]' derivation='Sum' name='[sum:MAY%actual_year%:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[NOV2017]' derivation='Sum' name='[sum:NOV2017:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[NOV%last_year%]' derivation='Sum' name='[sum:NOV%last_year%:qk]' pivot='key' type='quantitative' />
             <column-instance column='[NOV%actual_year%]' derivation='Sum' name='[sum:NOV%actual_year%:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[OCT2017]' derivation='Sum' name='[sum:OCT2017:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[OCT%last_year%]' derivation='Sum' name='[sum:OCT%last_year%:qk]' pivot='key' type='quantitative' />
             <column-instance column='[OCT%actual_year%]' derivation='Sum' name='[sum:OCT%actual_year%:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[SET2017]' derivation='Sum' name='[sum:SET2017:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[SET%last_year%]' derivation='Sum' name='[sum:SET%last_year%:qk]' pivot='key' type='quantitative' />
             <column-instance column='[SET%actual_year%]' derivation='Sum' name='[sum:SET%actual_year%:qk]' pivot='key' type='quantitative' />
           </datasource-dependencies>
           <filter class='categorical' column='[federated.1kzofim1rpcwgg179q5kt1ics8iz].[:Measure Names]'>
             <groupfilter function='union' user:op='manual'>
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1kzofim1rpcwgg179q5kt1ics8iz].[sum:ENE2017:qk]&quot;' />
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1kzofim1rpcwgg179q5kt1ics8iz].[sum:FEB2017:qk]&quot;' />
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1kzofim1rpcwgg179q5kt1ics8iz].[sum:MAR2017:qk]&quot;' />
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1kzofim1rpcwgg179q5kt1ics8iz].[sum:ABR2017:qk]&quot;' />
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1kzofim1rpcwgg179q5kt1ics8iz].[sum:MAY2017:qk]&quot;' />
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1kzofim1rpcwgg179q5kt1ics8iz].[sum:JUN2017:qk]&quot;' />
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1kzofim1rpcwgg179q5kt1ics8iz].[sum:JUL2017:qk]&quot;' />
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1kzofim1rpcwgg179q5kt1ics8iz].[sum:AGO2017:qk]&quot;' />
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1kzofim1rpcwgg179q5kt1ics8iz].[sum:SET2017:qk]&quot;' />
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1kzofim1rpcwgg179q5kt1ics8iz].[sum:OCT2017:qk]&quot;' />
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1kzofim1rpcwgg179q5kt1ics8iz].[sum:NOV2017:qk]&quot;' />
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1kzofim1rpcwgg179q5kt1ics8iz].[sum:DIC2017:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1kzofim1rpcwgg179q5kt1ics8iz].[sum:ENE%last_year%:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1kzofim1rpcwgg179q5kt1ics8iz].[sum:FEB%last_year%:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1kzofim1rpcwgg179q5kt1ics8iz].[sum:MAR%last_year%:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1kzofim1rpcwgg179q5kt1ics8iz].[sum:ABR%last_year%:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1kzofim1rpcwgg179q5kt1ics8iz].[sum:MAY%last_year%:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1kzofim1rpcwgg179q5kt1ics8iz].[sum:JUN%last_year%:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1kzofim1rpcwgg179q5kt1ics8iz].[sum:JUL%last_year%:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1kzofim1rpcwgg179q5kt1ics8iz].[sum:AGO%last_year%:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1kzofim1rpcwgg179q5kt1ics8iz].[sum:SET%last_year%:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1kzofim1rpcwgg179q5kt1ics8iz].[sum:OCT%last_year%:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1kzofim1rpcwgg179q5kt1ics8iz].[sum:NOV%last_year%:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1kzofim1rpcwgg179q5kt1ics8iz].[sum:DIC%last_year%:qk]&quot;' />
               <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1kzofim1rpcwgg179q5kt1ics8iz].[sum:ENE%actual_year%:qk]&quot;' />
               <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1kzofim1rpcwgg179q5kt1ics8iz].[sum:FEB%actual_year%:qk]&quot;' />
               <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1kzofim1rpcwgg179q5kt1ics8iz].[sum:MAR%actual_year%:qk]&quot;' />
@@ -9054,71 +8198,71 @@
             <datasource caption='fb_interaccions_2' name='federated.039egpr1os4kkx14vmfxx1r9n3bx' />
           </datasources>
           <datasource-dependencies datasource='federated.039egpr1os4kkx14vmfxx1r9n3bx'>
-            <column datatype='real' name='[ABR2017]' role='measure' type='quantitative' />
+            <column datatype='real' name='[ABR%last_year%]' role='measure' type='quantitative' />
             <column datatype='real' name='[ABR%actual_year%]' role='measure' type='quantitative' />
-            <column datatype='real' name='[AGO2017]' role='measure' type='quantitative' />
+            <column datatype='real' name='[AGO%last_year%]' role='measure' type='quantitative' />
             <column datatype='real' name='[AGO%actual_year%]' role='measure' type='quantitative' />
-            <column datatype='real' name='[DIC2017]' role='measure' type='quantitative' />
+            <column datatype='real' name='[DIC%last_year%]' role='measure' type='quantitative' />
             <column datatype='real' name='[DIC%actual_year%]' role='measure' type='quantitative' />
-            <column datatype='real' name='[ENE2017]' role='measure' type='quantitative' />
+            <column datatype='real' name='[ENE%last_year%]' role='measure' type='quantitative' />
             <column datatype='real' name='[ENE%actual_year%]' role='measure' type='quantitative' />
-            <column datatype='real' name='[FEB2017]' role='measure' type='quantitative' />
+            <column datatype='real' name='[FEB%last_year%]' role='measure' type='quantitative' />
             <column datatype='real' name='[FEB%actual_year%]' role='measure' type='quantitative' />
-            <column datatype='real' name='[JUL2017]' role='measure' type='quantitative' />
+            <column datatype='real' name='[JUL%last_year%]' role='measure' type='quantitative' />
             <column datatype='real' name='[JUL%actual_year%]' role='measure' type='quantitative' />
-            <column datatype='real' name='[JUN2017]' role='measure' type='quantitative' />
+            <column datatype='real' name='[JUN%last_year%]' role='measure' type='quantitative' />
             <column datatype='real' name='[JUN%actual_year%]' role='measure' type='quantitative' />
-            <column datatype='real' name='[MAR2017]' role='measure' type='quantitative' />
+            <column datatype='real' name='[MAR%last_year%]' role='measure' type='quantitative' />
             <column datatype='real' name='[MAR%actual_year%]' role='measure' type='quantitative' />
-            <column datatype='real' name='[MAY2017]' role='measure' type='quantitative' />
+            <column datatype='real' name='[MAY%last_year%]' role='measure' type='quantitative' />
             <column datatype='real' name='[MAY%actual_year%]' role='measure' type='quantitative' />
-            <column datatype='real' name='[NOV2017]' role='measure' type='quantitative' />
+            <column datatype='real' name='[NOV%last_year%]' role='measure' type='quantitative' />
             <column datatype='real' name='[NOV%actual_year%]' role='measure' type='quantitative' />
-            <column datatype='real' name='[OCT2017]' role='measure' type='quantitative' />
+            <column datatype='real' name='[OCT%last_year%]' role='measure' type='quantitative' />
             <column datatype='real' name='[OCT%actual_year%]' role='measure' type='quantitative' />
-            <column datatype='real' name='[SET2017]' role='measure' type='quantitative' />
+            <column datatype='real' name='[SET%last_year%]' role='measure' type='quantitative' />
             <column datatype='real' name='[SET%actual_year%]' role='measure' type='quantitative' />
             <column datatype='string' name='[TIPO]' role='dimension' type='nominal' />
             <column-instance column='[TIPO]' derivation='None' name='[none:TIPO:nk]' pivot='key' type='nominal' />
-            <column-instance column='[ABR2017]' derivation='Sum' name='[sum:ABR2017:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[ABR%last_year%]' derivation='Sum' name='[sum:ABR%last_year%:qk]' pivot='key' type='quantitative' />
             <column-instance column='[ABR%actual_year%]' derivation='Sum' name='[sum:ABR%actual_year%:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[AGO2017]' derivation='Sum' name='[sum:AGO2017:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[AGO%last_year%]' derivation='Sum' name='[sum:AGO%last_year%:qk]' pivot='key' type='quantitative' />
             <column-instance column='[AGO%actual_year%]' derivation='Sum' name='[sum:AGO%actual_year%:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[DIC2017]' derivation='Sum' name='[sum:DIC2017:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[DIC%last_year%]' derivation='Sum' name='[sum:DIC%last_year%:qk]' pivot='key' type='quantitative' />
             <column-instance column='[DIC%actual_year%]' derivation='Sum' name='[sum:DIC%actual_year%:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[ENE2017]' derivation='Sum' name='[sum:ENE2017:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[ENE%last_year%]' derivation='Sum' name='[sum:ENE%last_year%:qk]' pivot='key' type='quantitative' />
             <column-instance column='[ENE%actual_year%]' derivation='Sum' name='[sum:ENE%actual_year%:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[FEB2017]' derivation='Sum' name='[sum:FEB2017:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[FEB%last_year%]' derivation='Sum' name='[sum:FEB%last_year%:qk]' pivot='key' type='quantitative' />
             <column-instance column='[FEB%actual_year%]' derivation='Sum' name='[sum:FEB%actual_year%:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[JUL2017]' derivation='Sum' name='[sum:JUL2017:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[JUL%last_year%]' derivation='Sum' name='[sum:JUL%last_year%:qk]' pivot='key' type='quantitative' />
             <column-instance column='[JUL%actual_year%]' derivation='Sum' name='[sum:JUL%actual_year%:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[JUN2017]' derivation='Sum' name='[sum:JUN2017:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[JUN%last_year%]' derivation='Sum' name='[sum:JUN%last_year%:qk]' pivot='key' type='quantitative' />
             <column-instance column='[JUN%actual_year%]' derivation='Sum' name='[sum:JUN%actual_year%:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[MAR2017]' derivation='Sum' name='[sum:MAR2017:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[MAR%last_year%]' derivation='Sum' name='[sum:MAR%last_year%:qk]' pivot='key' type='quantitative' />
             <column-instance column='[MAR%actual_year%]' derivation='Sum' name='[sum:MAR%actual_year%:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[MAY2017]' derivation='Sum' name='[sum:MAY2017:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[MAY%last_year%]' derivation='Sum' name='[sum:MAY%last_year%:qk]' pivot='key' type='quantitative' />
             <column-instance column='[MAY%actual_year%]' derivation='Sum' name='[sum:MAY%actual_year%:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[NOV2017]' derivation='Sum' name='[sum:NOV2017:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[NOV%last_year%]' derivation='Sum' name='[sum:NOV%last_year%:qk]' pivot='key' type='quantitative' />
             <column-instance column='[NOV%actual_year%]' derivation='Sum' name='[sum:NOV%actual_year%:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[OCT2017]' derivation='Sum' name='[sum:OCT2017:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[OCT%last_year%]' derivation='Sum' name='[sum:OCT%last_year%:qk]' pivot='key' type='quantitative' />
             <column-instance column='[OCT%actual_year%]' derivation='Sum' name='[sum:OCT%actual_year%:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[SET2017]' derivation='Sum' name='[sum:SET2017:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[SET%last_year%]' derivation='Sum' name='[sum:SET%last_year%:qk]' pivot='key' type='quantitative' />
             <column-instance column='[SET%actual_year%]' derivation='Sum' name='[sum:SET%actual_year%:qk]' pivot='key' type='quantitative' />
           </datasource-dependencies>
           <filter class='categorical' column='[federated.039egpr1os4kkx14vmfxx1r9n3bx].[:Measure Names]'>
             <groupfilter function='union' user:op='manual'>
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.039egpr1os4kkx14vmfxx1r9n3bx].[sum:ENE2017:qk]&quot;' />
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.039egpr1os4kkx14vmfxx1r9n3bx].[sum:FEB2017:qk]&quot;' />
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.039egpr1os4kkx14vmfxx1r9n3bx].[sum:MAR2017:qk]&quot;' />
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.039egpr1os4kkx14vmfxx1r9n3bx].[sum:ABR2017:qk]&quot;' />
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.039egpr1os4kkx14vmfxx1r9n3bx].[sum:MAY2017:qk]&quot;' />
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.039egpr1os4kkx14vmfxx1r9n3bx].[sum:JUN2017:qk]&quot;' />
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.039egpr1os4kkx14vmfxx1r9n3bx].[sum:JUL2017:qk]&quot;' />
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.039egpr1os4kkx14vmfxx1r9n3bx].[sum:AGO2017:qk]&quot;' />
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.039egpr1os4kkx14vmfxx1r9n3bx].[sum:SET2017:qk]&quot;' />
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.039egpr1os4kkx14vmfxx1r9n3bx].[sum:OCT2017:qk]&quot;' />
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.039egpr1os4kkx14vmfxx1r9n3bx].[sum:NOV2017:qk]&quot;' />
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.039egpr1os4kkx14vmfxx1r9n3bx].[sum:DIC2017:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.039egpr1os4kkx14vmfxx1r9n3bx].[sum:ENE%last_year%:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.039egpr1os4kkx14vmfxx1r9n3bx].[sum:FEB%last_year%:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.039egpr1os4kkx14vmfxx1r9n3bx].[sum:MAR%last_year%:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.039egpr1os4kkx14vmfxx1r9n3bx].[sum:ABR%last_year%:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.039egpr1os4kkx14vmfxx1r9n3bx].[sum:MAY%last_year%:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.039egpr1os4kkx14vmfxx1r9n3bx].[sum:JUN%last_year%:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.039egpr1os4kkx14vmfxx1r9n3bx].[sum:JUL%last_year%:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.039egpr1os4kkx14vmfxx1r9n3bx].[sum:AGO%last_year%:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.039egpr1os4kkx14vmfxx1r9n3bx].[sum:SET%last_year%:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.039egpr1os4kkx14vmfxx1r9n3bx].[sum:OCT%last_year%:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.039egpr1os4kkx14vmfxx1r9n3bx].[sum:NOV%last_year%:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.039egpr1os4kkx14vmfxx1r9n3bx].[sum:DIC%last_year%:qk]&quot;' />
               <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.039egpr1os4kkx14vmfxx1r9n3bx].[sum:ENE%actual_year%:qk]&quot;' />
               <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.039egpr1os4kkx14vmfxx1r9n3bx].[sum:FEB%actual_year%:qk]&quot;' />
               <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.039egpr1os4kkx14vmfxx1r9n3bx].[sum:MAR%actual_year%:qk]&quot;' />
@@ -9312,150 +8456,6 @@
         <cols>[federated.0bggz4u18jo1n218zaznj09cieaf].[:Measure Names]</cols>
       </table>
     </worksheet>
-    <worksheet name='FB_POST2'>
-      <table>
-        <view>
-          <datasources>
-            <datasource caption='fb_posts_2' name='federated.17592b71pz325j16kylir1ych4ey' />
-          </datasources>
-          <datasource-dependencies datasource='federated.17592b71pz325j16kylir1ych4ey'>
-            <column datatype='real' name='[ABR2017]' role='measure' type='quantitative' />
-            <column datatype='real' name='[ABR%actual_year%]' role='measure' type='quantitative' />
-            <column datatype='real' name='[AGO2017]' role='measure' type='quantitative' />
-            <column datatype='real' name='[AGO%actual_year%]' role='measure' type='quantitative' />
-            <column datatype='real' name='[DIC2017]' role='measure' type='quantitative' />
-            <column datatype='real' name='[DIC%actual_year%]' role='measure' type='quantitative' />
-            <column datatype='real' name='[ENE2017]' role='measure' type='quantitative' />
-            <column datatype='real' name='[ENE%actual_year%]' role='measure' type='quantitative' />
-            <column datatype='real' name='[FEB2017]' role='measure' type='quantitative' />
-            <column datatype='real' name='[FEB%actual_year%]' role='measure' type='quantitative' />
-            <column datatype='real' name='[JUL2017]' role='measure' type='quantitative' />
-            <column datatype='real' name='[JUL%actual_year%]' role='measure' type='quantitative' />
-            <column datatype='real' name='[JUN2017]' role='measure' type='quantitative' />
-            <column datatype='real' name='[JUN%actual_year%]' role='measure' type='quantitative' />
-            <column datatype='real' name='[MAR2017]' role='measure' type='quantitative' />
-            <column datatype='real' name='[MAR%actual_year%]' role='measure' type='quantitative' />
-            <column datatype='real' name='[MAY2017]' role='measure' type='quantitative' />
-            <column datatype='real' name='[MAY%actual_year%]' role='measure' type='quantitative' />
-            <column datatype='real' name='[NOV2017]' role='measure' type='quantitative' />
-            <column datatype='real' name='[NOV%actual_year%]' role='measure' type='quantitative' />
-            <column datatype='real' name='[OCT2017]' role='measure' type='quantitative' />
-            <column datatype='real' name='[OCT%actual_year%]' role='measure' type='quantitative' />
-            <column datatype='real' name='[SET2017]' role='measure' type='quantitative' />
-            <column datatype='real' name='[SET%actual_year%]' role='measure' type='quantitative' />
-            <column-instance column='[type]' derivation='None' name='[none:type:nk]' pivot='key' type='nominal' />
-            <column-instance column='[ABR2017]' derivation='Sum' name='[sum:ABR2017:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[ABR%actual_year%]' derivation='Sum' name='[sum:ABR%actual_year%:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[AGO2017]' derivation='Sum' name='[sum:AGO2017:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[AGO%actual_year%]' derivation='Sum' name='[sum:AGO%actual_year%:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[DIC2017]' derivation='Sum' name='[sum:DIC2017:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[DIC%actual_year%]' derivation='Sum' name='[sum:DIC%actual_year%:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[ENE2017]' derivation='Sum' name='[sum:ENE2017:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[ENE%actual_year%]' derivation='Sum' name='[sum:ENE%actual_year%:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[FEB2017]' derivation='Sum' name='[sum:FEB2017:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[FEB%actual_year%]' derivation='Sum' name='[sum:FEB%actual_year%:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[JUL2017]' derivation='Sum' name='[sum:JUL2017:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[JUL%actual_year%]' derivation='Sum' name='[sum:JUL%actual_year%:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[JUN2017]' derivation='Sum' name='[sum:JUN2017:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[JUN%actual_year%]' derivation='Sum' name='[sum:JUN%actual_year%:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[MAR2017]' derivation='Sum' name='[sum:MAR2017:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[MAR%actual_year%]' derivation='Sum' name='[sum:MAR%actual_year%:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[MAY2017]' derivation='Sum' name='[sum:MAY2017:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[MAY%actual_year%]' derivation='Sum' name='[sum:MAY%actual_year%:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[NOV2017]' derivation='Sum' name='[sum:NOV2017:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[NOV%actual_year%]' derivation='Sum' name='[sum:NOV%actual_year%:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[OCT2017]' derivation='Sum' name='[sum:OCT2017:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[OCT%actual_year%]' derivation='Sum' name='[sum:OCT%actual_year%:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[SET2017]' derivation='Sum' name='[sum:SET2017:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[SET%actual_year%]' derivation='Sum' name='[sum:SET%actual_year%:qk]' pivot='key' type='quantitative' />
-            <column datatype='string' name='[type]' role='dimension' type='nominal' />
-          </datasource-dependencies>
-          <filter class='categorical' column='[federated.17592b71pz325j16kylir1ych4ey].[:Measure Names]'>
-            <groupfilter function='union' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.17592b71pz325j16kylir1ych4ey].[sum:ABR2017:qk]&quot;' />
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.17592b71pz325j16kylir1ych4ey].[sum:ABR%actual_year%:qk]&quot;' />
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.17592b71pz325j16kylir1ych4ey].[sum:AGO2017:qk]&quot;' />
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.17592b71pz325j16kylir1ych4ey].[sum:AGO%actual_year%:qk]&quot;' />
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.17592b71pz325j16kylir1ych4ey].[sum:DIC2017:qk]&quot;' />
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.17592b71pz325j16kylir1ych4ey].[sum:DIC%actual_year%:qk]&quot;' />
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.17592b71pz325j16kylir1ych4ey].[sum:ENE2017:qk]&quot;' />
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.17592b71pz325j16kylir1ych4ey].[sum:ENE%actual_year%:qk]&quot;' />
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.17592b71pz325j16kylir1ych4ey].[sum:FEB2017:qk]&quot;' />
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.17592b71pz325j16kylir1ych4ey].[sum:FEB%actual_year%:qk]&quot;' />
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.17592b71pz325j16kylir1ych4ey].[sum:JUL2017:qk]&quot;' />
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.17592b71pz325j16kylir1ych4ey].[sum:JUL%actual_year%:qk]&quot;' />
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.17592b71pz325j16kylir1ych4ey].[sum:JUN2017:qk]&quot;' />
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.17592b71pz325j16kylir1ych4ey].[sum:JUN%actual_year%:qk]&quot;' />
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.17592b71pz325j16kylir1ych4ey].[sum:MAR2017:qk]&quot;' />
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.17592b71pz325j16kylir1ych4ey].[sum:MAR%actual_year%:qk]&quot;' />
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.17592b71pz325j16kylir1ych4ey].[sum:MAY2017:qk]&quot;' />
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.17592b71pz325j16kylir1ych4ey].[sum:MAY%actual_year%:qk]&quot;' />
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.17592b71pz325j16kylir1ych4ey].[sum:NOV2017:qk]&quot;' />
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.17592b71pz325j16kylir1ych4ey].[sum:NOV%actual_year%:qk]&quot;' />
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.17592b71pz325j16kylir1ych4ey].[sum:OCT2017:qk]&quot;' />
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.17592b71pz325j16kylir1ych4ey].[sum:OCT%actual_year%:qk]&quot;' />
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.17592b71pz325j16kylir1ych4ey].[sum:SET2017:qk]&quot;' />
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.17592b71pz325j16kylir1ych4ey].[sum:SET%actual_year%:qk]&quot;' />
-            </groupfilter>
-          </filter>
-          <natural-sort column='[federated.17592b71pz325j16kylir1ych4ey].[:Measure Names]' direction='ASC' />
-          <filter class='categorical' column='[federated.17592b71pz325j16kylir1ych4ey].[none:type:nk]' kind='hide'>
-            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-manual-selection='true' user:ui-manual-selection-all-when-empty='true' user:ui-marker='enumerate'>
-              <groupfilter function='level-members' level='[none:type:nk]' />
-              <groupfilter function='member' level='[none:type:nk]' member='&quot;Status&quot;' />
-            </groupfilter>
-          </filter>
-          <manual-sort column='[federated.17592b71pz325j16kylir1ych4ey].[none:type:nk]' direction='ASC'>
-            <dictionary>
-              <bucket>&quot;Status&quot;</bucket>
-              <bucket>&quot;Video&quot;</bucket>
-              <bucket>&quot;Photo&quot;</bucket>
-              <bucket>&quot;Link&quot;</bucket>
-              <bucket>%all%</bucket>
-            </dictionary>
-          </manual-sort>
-          <slices>
-            <column>[federated.17592b71pz325j16kylir1ych4ey].[:Measure Names]</column>
-          </slices>
-          <aggregation value='true' />
-        </view>
-        <style>
-          <style-rule element='axis'>
-            <format attr='title' class='0' field='[federated.17592b71pz325j16kylir1ych4ey].[Multiple Values]' scope='rows' value='' />
-          </style-rule>
-          <style-rule element='cell'>
-            <format attr='text-align' field='[federated.17592b71pz325j16kylir1ych4ey].[Multiple Values]' value='auto' />
-            <format attr='vertical-align' field='[federated.17592b71pz325j16kylir1ych4ey].[Multiple Values]' value='auto' />
-            <format attr='wrap' field='[federated.17592b71pz325j16kylir1ych4ey].[Multiple Values]' value='auto' />
-            <format attr='text-format' field='[federated.17592b71pz325j16kylir1ych4ey].[Multiple Values]' value='N' />
-            <format attr='text-orientation' field='[federated.17592b71pz325j16kylir1ych4ey].[Multiple Values]' value='0' />
-          </style-rule>
-          <style-rule element='label'>
-            <format attr='text-orientation' field='[federated.17592b71pz325j16kylir1ych4ey].[:Measure Names]' value='0' />
-          </style-rule>
-        </style>
-        <panes>
-          <pane selection-relaxation-option='selection-relaxation-allow'>
-            <view>
-              <breakdown value='auto' />
-            </view>
-            <mark class='Automatic' />
-            <encodings>
-              <color column='[federated.17592b71pz325j16kylir1ych4ey].[none:type:nk]' />
-              <text column='[federated.17592b71pz325j16kylir1ych4ey].[Multiple Values]' />
-            </encodings>
-            <style>
-              <style-rule element='mark'>
-                <format attr='mark-labels-show' value='true' />
-                <format attr='mark-labels-cull' value='true' />
-              </style-rule>
-            </style>
-          </pane>
-        </panes>
-        <rows>[federated.17592b71pz325j16kylir1ych4ey].[Multiple Values]</rows>
-        <cols>[federated.17592b71pz325j16kylir1ych4ey].[:Measure Names]</cols>
-      </table>
-    </worksheet>
     <worksheet name='FB_SEG1'>
       <table>
         <view>
@@ -9595,69 +8595,69 @@
             <datasource caption='fb_seguidors_2' name='federated.02mejam01afwn91gciqe31svahh2' />
           </datasources>
           <datasource-dependencies datasource='federated.02mejam01afwn91gciqe31svahh2'>
-            <column datatype='real' name='[ABR2017]' role='measure' type='quantitative' />
+            <column datatype='real' name='[ABR%last_year%]' role='measure' type='quantitative' />
             <column datatype='real' name='[ABR%actual_year%]' role='measure' type='quantitative' />
-            <column datatype='real' name='[AGO2017]' role='measure' type='quantitative' />
+            <column datatype='real' name='[AGO%last_year%]' role='measure' type='quantitative' />
             <column datatype='real' name='[AGO%actual_year%]' role='measure' type='quantitative' />
-            <column datatype='real' name='[DIC2017]' role='measure' type='quantitative' />
+            <column datatype='real' name='[DIC%last_year%]' role='measure' type='quantitative' />
             <column datatype='real' name='[DIC%actual_year%]' role='measure' type='quantitative' />
-            <column datatype='real' name='[ENE2017]' role='measure' type='quantitative' />
+            <column datatype='real' name='[ENE%last_year%]' role='measure' type='quantitative' />
             <column datatype='real' name='[ENE%actual_year%]' role='measure' type='quantitative' />
-            <column datatype='real' name='[FEB2017]' role='measure' type='quantitative' />
+            <column datatype='real' name='[FEB%last_year%]' role='measure' type='quantitative' />
             <column datatype='real' name='[FEB%actual_year%]' role='measure' type='quantitative' />
-            <column datatype='real' name='[JUL2017]' role='measure' type='quantitative' />
+            <column datatype='real' name='[JUL%last_year%]' role='measure' type='quantitative' />
             <column datatype='real' name='[JUL%actual_year%]' role='measure' type='quantitative' />
-            <column datatype='real' name='[JUN2017]' role='measure' type='quantitative' />
+            <column datatype='real' name='[JUN%last_year%]' role='measure' type='quantitative' />
             <column datatype='real' name='[JUN%actual_year%]' role='measure' type='quantitative' />
-            <column datatype='real' name='[MAR2017]' role='measure' type='quantitative' />
+            <column datatype='real' name='[MAR%last_year%]' role='measure' type='quantitative' />
             <column datatype='real' name='[MAR%actual_year%]' role='measure' type='quantitative' />
-            <column datatype='real' name='[MAY2017]' role='measure' type='quantitative' />
+            <column datatype='real' name='[MAY%last_year%]' role='measure' type='quantitative' />
             <column datatype='real' name='[MAY%actual_year%]' role='measure' type='quantitative' />
-            <column datatype='real' name='[NOV2017]' role='measure' type='quantitative' />
+            <column datatype='real' name='[NOV%last_year%]' role='measure' type='quantitative' />
             <column datatype='real' name='[NOV%actual_year%]' role='measure' type='quantitative' />
-            <column datatype='real' name='[OCT2017]' role='measure' type='quantitative' />
+            <column datatype='real' name='[OCT%last_year%]' role='measure' type='quantitative' />
             <column datatype='real' name='[OCT%actual_year%]' role='measure' type='quantitative' />
-            <column datatype='real' name='[SET2017]' role='measure' type='quantitative' />
+            <column datatype='real' name='[SET%last_year%]' role='measure' type='quantitative' />
             <column datatype='real' name='[SET%actual_year%]' role='measure' type='quantitative' />
-            <column-instance column='[ABR2017]' derivation='Sum' name='[sum:ABR2017:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[ABR%last_year%]' derivation='Sum' name='[sum:ABR%last_year%:qk]' pivot='key' type='quantitative' />
             <column-instance column='[ABR%actual_year%]' derivation='Sum' name='[sum:ABR%actual_year%:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[AGO2017]' derivation='Sum' name='[sum:AGO2017:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[AGO%last_year%]' derivation='Sum' name='[sum:AGO%last_year%:qk]' pivot='key' type='quantitative' />
             <column-instance column='[AGO%actual_year%]' derivation='Sum' name='[sum:AGO%actual_year%:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[DIC2017]' derivation='Sum' name='[sum:DIC2017:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[DIC%last_year%]' derivation='Sum' name='[sum:DIC%last_year%:qk]' pivot='key' type='quantitative' />
             <column-instance column='[DIC%actual_year%]' derivation='Sum' name='[sum:DIC%actual_year%:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[ENE2017]' derivation='Sum' name='[sum:ENE2017:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[ENE%last_year%]' derivation='Sum' name='[sum:ENE%last_year%:qk]' pivot='key' type='quantitative' />
             <column-instance column='[ENE%actual_year%]' derivation='Sum' name='[sum:ENE%actual_year%:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[FEB2017]' derivation='Sum' name='[sum:FEB2017:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[FEB%last_year%]' derivation='Sum' name='[sum:FEB%last_year%:qk]' pivot='key' type='quantitative' />
             <column-instance column='[FEB%actual_year%]' derivation='Sum' name='[sum:FEB%actual_year%:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[JUL2017]' derivation='Sum' name='[sum:JUL2017:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[JUL%last_year%]' derivation='Sum' name='[sum:JUL%last_year%:qk]' pivot='key' type='quantitative' />
             <column-instance column='[JUL%actual_year%]' derivation='Sum' name='[sum:JUL%actual_year%:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[JUN2017]' derivation='Sum' name='[sum:JUN2017:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[JUN%last_year%]' derivation='Sum' name='[sum:JUN%last_year%:qk]' pivot='key' type='quantitative' />
             <column-instance column='[JUN%actual_year%]' derivation='Sum' name='[sum:JUN%actual_year%:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[MAR2017]' derivation='Sum' name='[sum:MAR2017:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[MAR%last_year%]' derivation='Sum' name='[sum:MAR%last_year%:qk]' pivot='key' type='quantitative' />
             <column-instance column='[MAR%actual_year%]' derivation='Sum' name='[sum:MAR%actual_year%:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[MAY2017]' derivation='Sum' name='[sum:MAY2017:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[MAY%last_year%]' derivation='Sum' name='[sum:MAY%last_year%:qk]' pivot='key' type='quantitative' />
             <column-instance column='[MAY%actual_year%]' derivation='Sum' name='[sum:MAY%actual_year%:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[NOV2017]' derivation='Sum' name='[sum:NOV2017:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[NOV%last_year%]' derivation='Sum' name='[sum:NOV%last_year%:qk]' pivot='key' type='quantitative' />
             <column-instance column='[NOV%actual_year%]' derivation='Sum' name='[sum:NOV%actual_year%:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[OCT2017]' derivation='Sum' name='[sum:OCT2017:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[OCT%last_year%]' derivation='Sum' name='[sum:OCT%last_year%:qk]' pivot='key' type='quantitative' />
             <column-instance column='[OCT%actual_year%]' derivation='Sum' name='[sum:OCT%actual_year%:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[SET2017]' derivation='Sum' name='[sum:SET2017:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[SET%last_year%]' derivation='Sum' name='[sum:SET%last_year%:qk]' pivot='key' type='quantitative' />
             <column-instance column='[SET%actual_year%]' derivation='Sum' name='[sum:SET%actual_year%:qk]' pivot='key' type='quantitative' />
           </datasource-dependencies>
           <filter class='categorical' column='[federated.02mejam01afwn91gciqe31svahh2].[:Measure Names]'>
             <groupfilter function='union' user:op='manual'>
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.02mejam01afwn91gciqe31svahh2].[sum:ENE2017:qk]&quot;' />
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.02mejam01afwn91gciqe31svahh2].[sum:FEB2017:qk]&quot;' />
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.02mejam01afwn91gciqe31svahh2].[sum:MAR2017:qk]&quot;' />
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.02mejam01afwn91gciqe31svahh2].[sum:ABR2017:qk]&quot;' />
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.02mejam01afwn91gciqe31svahh2].[sum:MAY2017:qk]&quot;' />
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.02mejam01afwn91gciqe31svahh2].[sum:JUN2017:qk]&quot;' />
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.02mejam01afwn91gciqe31svahh2].[sum:JUL2017:qk]&quot;' />
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.02mejam01afwn91gciqe31svahh2].[sum:AGO2017:qk]&quot;' />
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.02mejam01afwn91gciqe31svahh2].[sum:SET2017:qk]&quot;' />
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.02mejam01afwn91gciqe31svahh2].[sum:OCT2017:qk]&quot;' />
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.02mejam01afwn91gciqe31svahh2].[sum:NOV2017:qk]&quot;' />
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.02mejam01afwn91gciqe31svahh2].[sum:DIC2017:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.02mejam01afwn91gciqe31svahh2].[sum:ENE%last_year%:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.02mejam01afwn91gciqe31svahh2].[sum:FEB%last_year%:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.02mejam01afwn91gciqe31svahh2].[sum:MAR%last_year%:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.02mejam01afwn91gciqe31svahh2].[sum:ABR%last_year%:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.02mejam01afwn91gciqe31svahh2].[sum:MAY%last_year%:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.02mejam01afwn91gciqe31svahh2].[sum:JUN%last_year%:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.02mejam01afwn91gciqe31svahh2].[sum:JUL%last_year%:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.02mejam01afwn91gciqe31svahh2].[sum:AGO%last_year%:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.02mejam01afwn91gciqe31svahh2].[sum:SET%last_year%:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.02mejam01afwn91gciqe31svahh2].[sum:OCT%last_year%:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.02mejam01afwn91gciqe31svahh2].[sum:NOV%last_year%:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.02mejam01afwn91gciqe31svahh2].[sum:DIC%last_year%:qk]&quot;' />
               <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.02mejam01afwn91gciqe31svahh2].[sum:ENE%actual_year%:qk]&quot;' />
               <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.02mejam01afwn91gciqe31svahh2].[sum:FEB%actual_year%:qk]&quot;' />
               <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.02mejam01afwn91gciqe31svahh2].[sum:MAR%actual_year%:qk]&quot;' />
@@ -10061,57 +9061,57 @@
             <datasource caption='impressions_2' name='federated.16y87190nzal5z1a3obp6086lg3s' />
           </datasources>
           <datasource-dependencies datasource='federated.16y87190nzal5z1a3obp6086lg3s'>
-            <column datatype='real' name='[ABR2017]' role='measure' type='quantitative' />
+            <column datatype='real' name='[ABR%last_year%]' role='measure' type='quantitative' />
             <column datatype='real' name='[ABR%actual_year%]' role='measure' type='quantitative' />
-            <column datatype='real' name='[AGO2017]' role='measure' type='quantitative' />
+            <column datatype='real' name='[AGO%last_year%]' role='measure' type='quantitative' />
             <column datatype='real' name='[AGO%actual_year%]' role='measure' type='quantitative' />
-            <column datatype='real' name='[DIC2017]' role='measure' type='quantitative' />
+            <column datatype='real' name='[DIC%last_year%]' role='measure' type='quantitative' />
             <column datatype='real' name='[DIC%actual_year%]' role='measure' type='quantitative' />
-            <column datatype='real' name='[ENE2017]' role='measure' type='quantitative' />
+            <column datatype='real' name='[ENE%last_year%]' role='measure' type='quantitative' />
             <column datatype='real' name='[ENE%actual_year%]' role='measure' type='quantitative' />
-            <column datatype='real' name='[FEB2017]' role='measure' type='quantitative' />
+            <column datatype='real' name='[FEB%last_year%]' role='measure' type='quantitative' />
             <column datatype='real' name='[FEB%actual_year%]' role='measure' type='quantitative' />
-            <column datatype='real' name='[JUL2017]' role='measure' type='quantitative' />
+            <column datatype='real' name='[JUL%last_year%]' role='measure' type='quantitative' />
             <column datatype='real' name='[JUL%actual_year%]' role='measure' type='quantitative' />
-            <column datatype='real' name='[JUN2017]' role='measure' type='quantitative' />
+            <column datatype='real' name='[JUN%last_year%]' role='measure' type='quantitative' />
             <column datatype='real' name='[JUN%actual_year%]' role='measure' type='quantitative' />
-            <column datatype='real' name='[MAR2017]' role='measure' type='quantitative' />
+            <column datatype='real' name='[MAR%last_year%]' role='measure' type='quantitative' />
             <column datatype='real' name='[MAR%actual_year%]' role='measure' type='quantitative' />
-            <column datatype='real' name='[MAY2017]' role='measure' type='quantitative' />
+            <column datatype='real' name='[MAY%last_year%]' role='measure' type='quantitative' />
             <column datatype='real' name='[MAY%actual_year%]' role='measure' type='quantitative' />
-            <column datatype='real' name='[NOV2017]' role='measure' type='quantitative' />
+            <column datatype='real' name='[NOV%last_year%]' role='measure' type='quantitative' />
             <column datatype='real' name='[NOV%actual_year%]' role='measure' type='quantitative' />
             <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
               <calculation class='tableau' formula='1' />
             </column>
-            <column datatype='real' name='[OCT2017]' role='measure' type='quantitative' />
+            <column datatype='real' name='[OCT%last_year%]' role='measure' type='quantitative' />
             <column datatype='real' name='[OCT%actual_year%]' role='measure' type='quantitative' />
-            <column datatype='real' name='[SET2017]' role='measure' type='quantitative' />
+            <column datatype='real' name='[SET%last_year%]' role='measure' type='quantitative' />
             <column datatype='real' name='[SET%actual_year%]' role='measure' type='quantitative' />
-            <column-instance column='[ABR2017]' derivation='Sum' name='[sum:ABR2017:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[ABR%last_year%]' derivation='Sum' name='[sum:ABR%last_year%:qk]' pivot='key' type='quantitative' />
             <column-instance column='[ABR%actual_year%]' derivation='Sum' name='[sum:ABR%actual_year%:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[AGO2017]' derivation='Sum' name='[sum:AGO2017:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[AGO%last_year%]' derivation='Sum' name='[sum:AGO%last_year%:qk]' pivot='key' type='quantitative' />
             <column-instance column='[AGO%actual_year%]' derivation='Sum' name='[sum:AGO%actual_year%:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[DIC2017]' derivation='Sum' name='[sum:DIC2017:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[DIC%last_year%]' derivation='Sum' name='[sum:DIC%last_year%:qk]' pivot='key' type='quantitative' />
             <column-instance column='[DIC%actual_year%]' derivation='Sum' name='[sum:DIC%actual_year%:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[ENE2017]' derivation='Sum' name='[sum:ENE2017:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[ENE%last_year%]' derivation='Sum' name='[sum:ENE%last_year%:qk]' pivot='key' type='quantitative' />
             <column-instance column='[ENE%actual_year%]' derivation='Sum' name='[sum:ENE%actual_year%:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[FEB2017]' derivation='Sum' name='[sum:FEB2017:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[FEB%last_year%]' derivation='Sum' name='[sum:FEB%last_year%:qk]' pivot='key' type='quantitative' />
             <column-instance column='[FEB%actual_year%]' derivation='Sum' name='[sum:FEB%actual_year%:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[JUL2017]' derivation='Sum' name='[sum:JUL2017:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[JUL%last_year%]' derivation='Sum' name='[sum:JUL%last_year%:qk]' pivot='key' type='quantitative' />
             <column-instance column='[JUL%actual_year%]' derivation='Sum' name='[sum:JUL%actual_year%:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[JUN2017]' derivation='Sum' name='[sum:JUN2017:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[JUN%last_year%]' derivation='Sum' name='[sum:JUN%last_year%:qk]' pivot='key' type='quantitative' />
             <column-instance column='[JUN%actual_year%]' derivation='Sum' name='[sum:JUN%actual_year%:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[MAR2017]' derivation='Sum' name='[sum:MAR2017:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[MAR%last_year%]' derivation='Sum' name='[sum:MAR%last_year%:qk]' pivot='key' type='quantitative' />
             <column-instance column='[MAR%actual_year%]' derivation='Sum' name='[sum:MAR%actual_year%:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[MAY2017]' derivation='Sum' name='[sum:MAY2017:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[MAY%last_year%]' derivation='Sum' name='[sum:MAY%last_year%:qk]' pivot='key' type='quantitative' />
             <column-instance column='[MAY%actual_year%]' derivation='Sum' name='[sum:MAY%actual_year%:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[NOV2017]' derivation='Sum' name='[sum:NOV2017:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[NOV%last_year%]' derivation='Sum' name='[sum:NOV%last_year%:qk]' pivot='key' type='quantitative' />
             <column-instance column='[NOV%actual_year%]' derivation='Sum' name='[sum:NOV%actual_year%:qk]' pivot='key' type='quantitative' />
             <column-instance column='[Number of Records]' derivation='Sum' name='[sum:Number of Records:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[OCT2017]' derivation='Sum' name='[sum:OCT2017:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[OCT%last_year%]' derivation='Sum' name='[sum:OCT%last_year%:qk]' pivot='key' type='quantitative' />
             <column-instance column='[OCT%actual_year%]' derivation='Sum' name='[sum:OCT%actual_year%:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[SET2017]' derivation='Sum' name='[sum:SET2017:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[SET%last_year%]' derivation='Sum' name='[sum:SET%last_year%:qk]' pivot='key' type='quantitative' />
             <column-instance column='[SET%actual_year%]' derivation='Sum' name='[sum:SET%actual_year%:qk]' pivot='key' type='quantitative' />
           </datasource-dependencies>
           <filter class='categorical' column='[federated.16y87190nzal5z1a3obp6086lg3s].[:Measure Names]'>
@@ -10296,70 +9296,70 @@
             <datasource caption='interaccions_2' name='federated.1tya16z0iqpu4l148hr2w0fge76g' />
           </datasources>
           <datasource-dependencies datasource='federated.1tya16z0iqpu4l148hr2w0fge76g'>
-            <column datatype='real' name='[ABR2017]' role='measure' type='quantitative' />
+            <column datatype='real' name='[ABR%last_year%]' role='measure' type='quantitative' />
             <column datatype='real' name='[ABR%actual_year%]' role='measure' type='quantitative' />
-            <column datatype='real' name='[AGO2017]' role='measure' type='quantitative' />
+            <column datatype='real' name='[AGO%last_year%]' role='measure' type='quantitative' />
             <column datatype='real' name='[AGO%actual_year%]' role='measure' type='quantitative' />
-            <column datatype='real' name='[DIC2017]' role='measure' type='quantitative' />
+            <column datatype='real' name='[DIC%last_year%]' role='measure' type='quantitative' />
             <column datatype='real' name='[DIC%actual_year%]' role='measure' type='quantitative' />
-            <column datatype='real' name='[ENE2017]' role='measure' type='quantitative' />
+            <column datatype='real' name='[ENE%last_year%]' role='measure' type='quantitative' />
             <column datatype='real' name='[ENE%actual_year%]' role='measure' type='quantitative' />
-            <column datatype='real' name='[FEB2017]' role='measure' type='quantitative' />
+            <column datatype='real' name='[FEB%last_year%]' role='measure' type='quantitative' />
             <column datatype='real' name='[FEB%actual_year%]' role='measure' type='quantitative' />
-            <column datatype='real' name='[JUL2017]' role='measure' type='quantitative' />
+            <column datatype='real' name='[JUL%last_year%]' role='measure' type='quantitative' />
             <column datatype='real' name='[JUL%actual_year%]' role='measure' type='quantitative' />
-            <column datatype='real' name='[JUN2017]' role='measure' type='quantitative' />
+            <column datatype='real' name='[JUN%last_year%]' role='measure' type='quantitative' />
             <column datatype='real' name='[JUN%actual_year%]' role='measure' type='quantitative' />
-            <column datatype='real' name='[MAR2017]' role='measure' type='quantitative' />
+            <column datatype='real' name='[MAR%last_year%]' role='measure' type='quantitative' />
             <column datatype='real' name='[MAR%actual_year%]' role='measure' type='quantitative' />
-            <column datatype='real' name='[MAY2017]' role='measure' type='quantitative' />
+            <column datatype='real' name='[MAY%last_year%]' role='measure' type='quantitative' />
             <column datatype='real' name='[MAY%actual_year%]' role='measure' type='quantitative' />
-            <column datatype='real' name='[NOV2017]' role='measure' type='quantitative' />
+            <column datatype='real' name='[NOV%last_year%]' role='measure' type='quantitative' />
             <column datatype='real' name='[NOV%actual_year%]' role='measure' type='quantitative' />
             <column datatype='string' name='[interacciones]' role='dimension' type='nominal' />
             <column-instance column='[interacciones]' derivation='None' name='[none:interacciones:nk]' pivot='key' type='nominal' />
-            <column-instance column='[ABR2017]' derivation='Sum' name='[sum:ABR2017:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[ABR%last_year%]' derivation='Sum' name='[sum:ABR%last_year%:qk]' pivot='key' type='quantitative' />
             <column-instance column='[ABR%actual_year%]' derivation='Sum' name='[sum:ABR%actual_year%:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[AGO2017]' derivation='Sum' name='[sum:AGO2017:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[AGO%last_year%]' derivation='Sum' name='[sum:AGO%last_year%:qk]' pivot='key' type='quantitative' />
             <column-instance column='[AGO%actual_year%]' derivation='Sum' name='[sum:AGO%actual_year%:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[DIC2017]' derivation='Sum' name='[sum:DIC2017:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[DIC%last_year%]' derivation='Sum' name='[sum:DIC%last_year%:qk]' pivot='key' type='quantitative' />
             <column-instance column='[DIC%actual_year%]' derivation='Sum' name='[sum:DIC%actual_year%:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[ENE2017]' derivation='Sum' name='[sum:ENE2017:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[ENE%last_year%]' derivation='Sum' name='[sum:ENE%last_year%:qk]' pivot='key' type='quantitative' />
             <column-instance column='[ENE%actual_year%]' derivation='Sum' name='[sum:ENE%actual_year%:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[FEB2017]' derivation='Sum' name='[sum:FEB2017:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[FEB%last_year%]' derivation='Sum' name='[sum:FEB%last_year%:qk]' pivot='key' type='quantitative' />
             <column-instance column='[FEB%actual_year%]' derivation='Sum' name='[sum:FEB%actual_year%:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[JUL2017]' derivation='Sum' name='[sum:JUL2017:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[JUL%last_year%]' derivation='Sum' name='[sum:JUL%last_year%:qk]' pivot='key' type='quantitative' />
             <column-instance column='[JUL%actual_year%]' derivation='Sum' name='[sum:JUL%actual_year%:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[JUN2017]' derivation='Sum' name='[sum:JUN2017:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[JUN%last_year%]' derivation='Sum' name='[sum:JUN%last_year%:qk]' pivot='key' type='quantitative' />
             <column-instance column='[JUN%actual_year%]' derivation='Sum' name='[sum:JUN%actual_year%:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[MAR2017]' derivation='Sum' name='[sum:MAR2017:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[MAR%last_year%]' derivation='Sum' name='[sum:MAR%last_year%:qk]' pivot='key' type='quantitative' />
             <column-instance column='[MAR%actual_year%]' derivation='Sum' name='[sum:MAR%actual_year%:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[MAY2017]' derivation='Sum' name='[sum:MAY2017:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[MAY%last_year%]' derivation='Sum' name='[sum:MAY%last_year%:qk]' pivot='key' type='quantitative' />
             <column-instance column='[MAY%actual_year%]' derivation='Sum' name='[sum:MAY%actual_year%:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[NOV2017]' derivation='Sum' name='[sum:NOV2017:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[NOV%last_year%]' derivation='Sum' name='[sum:NOV%last_year%:qk]' pivot='key' type='quantitative' />
             <column-instance column='[NOV%actual_year%]' derivation='Sum' name='[sum:NOV%actual_year%:qk]' pivot='key' type='quantitative' />
           </datasource-dependencies>
           <filter class='categorical' column='[federated.1tya16z0iqpu4l148hr2w0fge76g].[:Measure Names]'>
             <groupfilter function='union' user:op='manual'>
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1tya16z0iqpu4l148hr2w0fge76g].[sum:ABR2017:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1tya16z0iqpu4l148hr2w0fge76g].[sum:ABR%last_year%:qk]&quot;' />
               <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1tya16z0iqpu4l148hr2w0fge76g].[sum:ABR%actual_year%:qk]&quot;' />
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1tya16z0iqpu4l148hr2w0fge76g].[sum:AGO2017:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1tya16z0iqpu4l148hr2w0fge76g].[sum:AGO%last_year%:qk]&quot;' />
               <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1tya16z0iqpu4l148hr2w0fge76g].[sum:AGO%actual_year%:qk]&quot;' />
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1tya16z0iqpu4l148hr2w0fge76g].[sum:DIC2017:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1tya16z0iqpu4l148hr2w0fge76g].[sum:DIC%last_year%:qk]&quot;' />
               <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1tya16z0iqpu4l148hr2w0fge76g].[sum:DIC%actual_year%:qk]&quot;' />
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1tya16z0iqpu4l148hr2w0fge76g].[sum:ENE2017:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1tya16z0iqpu4l148hr2w0fge76g].[sum:ENE%last_year%:qk]&quot;' />
               <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1tya16z0iqpu4l148hr2w0fge76g].[sum:ENE%actual_year%:qk]&quot;' />
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1tya16z0iqpu4l148hr2w0fge76g].[sum:FEB2017:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1tya16z0iqpu4l148hr2w0fge76g].[sum:FEB%last_year%:qk]&quot;' />
               <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1tya16z0iqpu4l148hr2w0fge76g].[sum:FEB%actual_year%:qk]&quot;' />
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1tya16z0iqpu4l148hr2w0fge76g].[sum:JUL2017:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1tya16z0iqpu4l148hr2w0fge76g].[sum:JUL%last_year%:qk]&quot;' />
               <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1tya16z0iqpu4l148hr2w0fge76g].[sum:JUL%actual_year%:qk]&quot;' />
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1tya16z0iqpu4l148hr2w0fge76g].[sum:JUN2017:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1tya16z0iqpu4l148hr2w0fge76g].[sum:JUN%last_year%:qk]&quot;' />
               <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1tya16z0iqpu4l148hr2w0fge76g].[sum:JUN%actual_year%:qk]&quot;' />
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1tya16z0iqpu4l148hr2w0fge76g].[sum:MAR2017:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1tya16z0iqpu4l148hr2w0fge76g].[sum:MAR%last_year%:qk]&quot;' />
               <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1tya16z0iqpu4l148hr2w0fge76g].[sum:MAR%actual_year%:qk]&quot;' />
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1tya16z0iqpu4l148hr2w0fge76g].[sum:MAY2017:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1tya16z0iqpu4l148hr2w0fge76g].[sum:MAY%last_year%:qk]&quot;' />
               <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1tya16z0iqpu4l148hr2w0fge76g].[sum:MAY%actual_year%:qk]&quot;' />
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1tya16z0iqpu4l148hr2w0fge76g].[sum:NOV2017:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1tya16z0iqpu4l148hr2w0fge76g].[sum:NOV%last_year%:qk]&quot;' />
               <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1tya16z0iqpu4l148hr2w0fge76g].[sum:NOV%actual_year%:qk]&quot;' />
             </groupfilter>
           </filter>
@@ -10554,80 +9554,80 @@
             <datasource caption='posts_2' name='federated.10uy74i14mp25t1dnzvdm0p18iq1' />
           </datasources>
           <datasource-dependencies datasource='federated.10uy74i14mp25t1dnzvdm0p18iq1'>
-            <column datatype='real' name='[ABR2017]' role='measure' type='quantitative' />
+            <column datatype='real' name='[ABR%last_year%]' role='measure' type='quantitative' />
             <column datatype='real' name='[ABR%actual_year%]' role='measure' type='quantitative' />
-            <column datatype='real' name='[AGO2017]' role='measure' type='quantitative' />
+            <column datatype='real' name='[AGO%last_year%]' role='measure' type='quantitative' />
             <column datatype='real' name='[AGO%actual_year%]' role='measure' type='quantitative' />
-            <column datatype='real' name='[DIC2017]' role='measure' type='quantitative' />
+            <column datatype='real' name='[DIC%last_year%]' role='measure' type='quantitative' />
             <column datatype='real' name='[DIC%actual_year%]' role='measure' type='quantitative' />
-            <column datatype='real' name='[ENE2017]' role='measure' type='quantitative' />
+            <column datatype='real' name='[ENE%last_year%]' role='measure' type='quantitative' />
             <column datatype='real' name='[ENE%actual_year%]' role='measure' type='quantitative' />
-            <column datatype='real' name='[FEB2017]' role='measure' type='quantitative' />
+            <column datatype='real' name='[FEB%last_year%]' role='measure' type='quantitative' />
             <column datatype='real' name='[FEB%actual_year%]' role='measure' type='quantitative' />
-            <column datatype='real' name='[JUL2017]' role='measure' type='quantitative' />
+            <column datatype='real' name='[JUL%last_year%]' role='measure' type='quantitative' />
             <column datatype='real' name='[JUL%actual_year%]' role='measure' type='quantitative' />
-            <column datatype='real' name='[JUN2017]' role='measure' type='quantitative' />
+            <column datatype='real' name='[JUN%last_year%]' role='measure' type='quantitative' />
             <column datatype='real' name='[JUN%actual_year%]' role='measure' type='quantitative' />
-            <column datatype='real' name='[MAR2017]' role='measure' type='quantitative' />
+            <column datatype='real' name='[MAR%last_year%]' role='measure' type='quantitative' />
             <column datatype='real' name='[MAR%actual_year%]' role='measure' type='quantitative' />
-            <column datatype='real' name='[MAY2017]' role='measure' type='quantitative' />
+            <column datatype='real' name='[MAY%last_year%]' role='measure' type='quantitative' />
             <column datatype='real' name='[MAY%actual_year%]' role='measure' type='quantitative' />
-            <column datatype='real' name='[NOV2017]' role='measure' type='quantitative' />
+            <column datatype='real' name='[NOV%last_year%]' role='measure' type='quantitative' />
             <column datatype='real' name='[NOV%actual_year%]' role='measure' type='quantitative' />
-            <column datatype='real' name='[OCT2017]' role='measure' type='quantitative' />
+            <column datatype='real' name='[OCT%last_year%]' role='measure' type='quantitative' />
             <column datatype='real' name='[OCT%actual_year%]' role='measure' type='quantitative' />
-            <column datatype='real' name='[SET2017]' role='measure' type='quantitative' />
+            <column datatype='real' name='[SET%last_year%]' role='measure' type='quantitative' />
             <column datatype='real' name='[SET%actual_year%]' role='measure' type='quantitative' />
-            <column-instance column='[ABR2017]' derivation='Sum' name='[sum:ABR2017:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[ABR%last_year%]' derivation='Sum' name='[sum:ABR%last_year%:qk]' pivot='key' type='quantitative' />
             <column-instance column='[ABR%actual_year%]' derivation='Sum' name='[sum:ABR%actual_year%:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[AGO2017]' derivation='Sum' name='[sum:AGO2017:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[AGO%last_year%]' derivation='Sum' name='[sum:AGO%last_year%:qk]' pivot='key' type='quantitative' />
             <column-instance column='[AGO%actual_year%]' derivation='Sum' name='[sum:AGO%actual_year%:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[DIC2017]' derivation='Sum' name='[sum:DIC2017:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[DIC%last_year%]' derivation='Sum' name='[sum:DIC%last_year%:qk]' pivot='key' type='quantitative' />
             <column-instance column='[DIC%actual_year%]' derivation='Sum' name='[sum:DIC%actual_year%:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[ENE2017]' derivation='Sum' name='[sum:ENE2017:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[ENE%last_year%]' derivation='Sum' name='[sum:ENE%last_year%:qk]' pivot='key' type='quantitative' />
             <column-instance column='[ENE%actual_year%]' derivation='Sum' name='[sum:ENE%actual_year%:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[FEB2017]' derivation='Sum' name='[sum:FEB2017:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[FEB%last_year%]' derivation='Sum' name='[sum:FEB%last_year%:qk]' pivot='key' type='quantitative' />
             <column-instance column='[FEB%actual_year%]' derivation='Sum' name='[sum:FEB%actual_year%:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[JUL2017]' derivation='Sum' name='[sum:JUL2017:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[JUL%last_year%]' derivation='Sum' name='[sum:JUL%last_year%:qk]' pivot='key' type='quantitative' />
             <column-instance column='[JUL%actual_year%]' derivation='Sum' name='[sum:JUL%actual_year%:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[JUN2017]' derivation='Sum' name='[sum:JUN2017:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[JUN%last_year%]' derivation='Sum' name='[sum:JUN%last_year%:qk]' pivot='key' type='quantitative' />
             <column-instance column='[JUN%actual_year%]' derivation='Sum' name='[sum:JUN%actual_year%:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[MAR2017]' derivation='Sum' name='[sum:MAR2017:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[MAR%last_year%]' derivation='Sum' name='[sum:MAR%last_year%:qk]' pivot='key' type='quantitative' />
             <column-instance column='[MAR%actual_year%]' derivation='Sum' name='[sum:MAR%actual_year%:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[MAY2017]' derivation='Sum' name='[sum:MAY2017:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[MAY%last_year%]' derivation='Sum' name='[sum:MAY%last_year%:qk]' pivot='key' type='quantitative' />
             <column-instance column='[MAY%actual_year%]' derivation='Sum' name='[sum:MAY%actual_year%:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[NOV2017]' derivation='Sum' name='[sum:NOV2017:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[NOV%last_year%]' derivation='Sum' name='[sum:NOV%last_year%:qk]' pivot='key' type='quantitative' />
             <column-instance column='[NOV%actual_year%]' derivation='Sum' name='[sum:NOV%actual_year%:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[OCT2017]' derivation='Sum' name='[sum:OCT2017:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[OCT%last_year%]' derivation='Sum' name='[sum:OCT%last_year%:qk]' pivot='key' type='quantitative' />
             <column-instance column='[OCT%actual_year%]' derivation='Sum' name='[sum:OCT%actual_year%:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[SET2017]' derivation='Sum' name='[sum:SET2017:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[SET%last_year%]' derivation='Sum' name='[sum:SET%last_year%:qk]' pivot='key' type='quantitative' />
             <column-instance column='[SET%actual_year%]' derivation='Sum' name='[sum:SET%actual_year%:qk]' pivot='key' type='quantitative' />
           </datasource-dependencies>
           <filter class='categorical' column='[federated.10uy74i14mp25t1dnzvdm0p18iq1].[:Measure Names]'>
             <groupfilter function='union' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.10uy74i14mp25t1dnzvdm0p18iq1].[sum:ABR2017:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.10uy74i14mp25t1dnzvdm0p18iq1].[sum:ABR%last_year%:qk]&quot;' />
               <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.10uy74i14mp25t1dnzvdm0p18iq1].[sum:ABR%actual_year%:qk]&quot;' />
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.10uy74i14mp25t1dnzvdm0p18iq1].[sum:AGO2017:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.10uy74i14mp25t1dnzvdm0p18iq1].[sum:AGO%last_year%:qk]&quot;' />
               <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.10uy74i14mp25t1dnzvdm0p18iq1].[sum:AGO%actual_year%:qk]&quot;' />
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.10uy74i14mp25t1dnzvdm0p18iq1].[sum:DIC2017:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.10uy74i14mp25t1dnzvdm0p18iq1].[sum:DIC%last_year%:qk]&quot;' />
               <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.10uy74i14mp25t1dnzvdm0p18iq1].[sum:DIC%actual_year%:qk]&quot;' />
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.10uy74i14mp25t1dnzvdm0p18iq1].[sum:ENE2017:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.10uy74i14mp25t1dnzvdm0p18iq1].[sum:ENE%last_year%:qk]&quot;' />
               <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.10uy74i14mp25t1dnzvdm0p18iq1].[sum:ENE%actual_year%:qk]&quot;' />
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.10uy74i14mp25t1dnzvdm0p18iq1].[sum:FEB2017:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.10uy74i14mp25t1dnzvdm0p18iq1].[sum:FEB%last_year%:qk]&quot;' />
               <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.10uy74i14mp25t1dnzvdm0p18iq1].[sum:FEB%actual_year%:qk]&quot;' />
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.10uy74i14mp25t1dnzvdm0p18iq1].[sum:JUL2017:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.10uy74i14mp25t1dnzvdm0p18iq1].[sum:JUL%last_year%:qk]&quot;' />
               <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.10uy74i14mp25t1dnzvdm0p18iq1].[sum:JUL%actual_year%:qk]&quot;' />
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.10uy74i14mp25t1dnzvdm0p18iq1].[sum:JUN2017:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.10uy74i14mp25t1dnzvdm0p18iq1].[sum:JUN%last_year%:qk]&quot;' />
               <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.10uy74i14mp25t1dnzvdm0p18iq1].[sum:JUN%actual_year%:qk]&quot;' />
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.10uy74i14mp25t1dnzvdm0p18iq1].[sum:MAR2017:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.10uy74i14mp25t1dnzvdm0p18iq1].[sum:MAR%last_year%:qk]&quot;' />
               <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.10uy74i14mp25t1dnzvdm0p18iq1].[sum:MAR%actual_year%:qk]&quot;' />
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.10uy74i14mp25t1dnzvdm0p18iq1].[sum:MAY2017:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.10uy74i14mp25t1dnzvdm0p18iq1].[sum:MAY%last_year%:qk]&quot;' />
               <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.10uy74i14mp25t1dnzvdm0p18iq1].[sum:MAY%actual_year%:qk]&quot;' />
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.10uy74i14mp25t1dnzvdm0p18iq1].[sum:NOV2017:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.10uy74i14mp25t1dnzvdm0p18iq1].[sum:NOV%last_year%:qk]&quot;' />
               <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.10uy74i14mp25t1dnzvdm0p18iq1].[sum:NOV%actual_year%:qk]&quot;' />
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.10uy74i14mp25t1dnzvdm0p18iq1].[sum:OCT2017:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.10uy74i14mp25t1dnzvdm0p18iq1].[sum:OCT%last_year%:qk]&quot;' />
               <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.10uy74i14mp25t1dnzvdm0p18iq1].[sum:OCT%actual_year%:qk]&quot;' />
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.10uy74i14mp25t1dnzvdm0p18iq1].[sum:SET2017:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.10uy74i14mp25t1dnzvdm0p18iq1].[sum:SET%last_year%:qk]&quot;' />
               <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.10uy74i14mp25t1dnzvdm0p18iq1].[sum:SET%actual_year%:qk]&quot;' />
             </groupfilter>
           </filter>
@@ -10809,80 +9809,80 @@
             <datasource caption='seguidors_2' name='federated.0sk8x79199xg3v18d8rrr1dhej6c' />
           </datasources>
           <datasource-dependencies datasource='federated.0sk8x79199xg3v18d8rrr1dhej6c'>
-            <column datatype='real' name='[ABR2017]' role='measure' type='quantitative' />
+            <column datatype='real' name='[ABR%last_year%]' role='measure' type='quantitative' />
             <column datatype='real' name='[ABR%actual_year%]' role='measure' type='quantitative' />
-            <column datatype='real' name='[AGO2017]' role='measure' type='quantitative' />
+            <column datatype='real' name='[AGO%last_year%]' role='measure' type='quantitative' />
             <column datatype='real' name='[AGO%actual_year%]' role='measure' type='quantitative' />
-            <column datatype='real' name='[DIC2017]' role='measure' type='quantitative' />
+            <column datatype='real' name='[DIC%last_year%]' role='measure' type='quantitative' />
             <column datatype='real' name='[DIC%actual_year%]' role='measure' type='quantitative' />
-            <column datatype='real' name='[ENE2017]' role='measure' type='quantitative' />
+            <column datatype='real' name='[ENE%last_year%]' role='measure' type='quantitative' />
             <column datatype='real' name='[ENE%actual_year%]' role='measure' type='quantitative' />
-            <column datatype='real' name='[FEB2017]' role='measure' type='quantitative' />
+            <column datatype='real' name='[FEB%last_year%]' role='measure' type='quantitative' />
             <column datatype='real' name='[FEB%actual_year%]' role='measure' type='quantitative' />
-            <column datatype='real' name='[JUL2017]' role='measure' type='quantitative' />
+            <column datatype='real' name='[JUL%last_year%]' role='measure' type='quantitative' />
             <column datatype='real' name='[JUL%actual_year%]' role='measure' type='quantitative' />
-            <column datatype='real' name='[JUN2017]' role='measure' type='quantitative' />
+            <column datatype='real' name='[JUN%last_year%]' role='measure' type='quantitative' />
             <column datatype='real' name='[JUN%actual_year%]' role='measure' type='quantitative' />
-            <column datatype='real' name='[MAR2017]' role='measure' type='quantitative' />
+            <column datatype='real' name='[MAR%last_year%]' role='measure' type='quantitative' />
             <column datatype='real' name='[MAR%actual_year%]' role='measure' type='quantitative' />
-            <column datatype='real' name='[MAY2017]' role='measure' type='quantitative' />
+            <column datatype='real' name='[MAY%last_year%]' role='measure' type='quantitative' />
             <column datatype='real' name='[MAY%actual_year%]' role='measure' type='quantitative' />
-            <column datatype='real' name='[NOV2017]' role='measure' type='quantitative' />
+            <column datatype='real' name='[NOV%last_year%]' role='measure' type='quantitative' />
             <column datatype='real' name='[NOV%actual_year%]' role='measure' type='quantitative' />
-            <column datatype='real' name='[OCT2017]' role='measure' type='quantitative' />
+            <column datatype='real' name='[OCT%last_year%]' role='measure' type='quantitative' />
             <column datatype='real' name='[OCT%actual_year%]' role='measure' type='quantitative' />
-            <column datatype='real' name='[SET2017]' role='measure' type='quantitative' />
+            <column datatype='real' name='[SET%last_year%]' role='measure' type='quantitative' />
             <column datatype='real' name='[SET%actual_year%]' role='measure' type='quantitative' />
-            <column-instance column='[ABR2017]' derivation='Sum' name='[sum:ABR2017:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[ABR%last_year%]' derivation='Sum' name='[sum:ABR%last_year%:qk]' pivot='key' type='quantitative' />
             <column-instance column='[ABR%actual_year%]' derivation='Sum' name='[sum:ABR%actual_year%:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[AGO2017]' derivation='Sum' name='[sum:AGO2017:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[AGO%last_year%]' derivation='Sum' name='[sum:AGO%last_year%:qk]' pivot='key' type='quantitative' />
             <column-instance column='[AGO%actual_year%]' derivation='Sum' name='[sum:AGO%actual_year%:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[DIC2017]' derivation='Sum' name='[sum:DIC2017:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[DIC%last_year%]' derivation='Sum' name='[sum:DIC%last_year%:qk]' pivot='key' type='quantitative' />
             <column-instance column='[DIC%actual_year%]' derivation='Sum' name='[sum:DIC%actual_year%:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[ENE2017]' derivation='Sum' name='[sum:ENE2017:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[ENE%last_year%]' derivation='Sum' name='[sum:ENE%last_year%:qk]' pivot='key' type='quantitative' />
             <column-instance column='[ENE%actual_year%]' derivation='Sum' name='[sum:ENE%actual_year%:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[FEB2017]' derivation='Sum' name='[sum:FEB2017:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[FEB%last_year%]' derivation='Sum' name='[sum:FEB%last_year%:qk]' pivot='key' type='quantitative' />
             <column-instance column='[FEB%actual_year%]' derivation='Sum' name='[sum:FEB%actual_year%:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[JUL2017]' derivation='Sum' name='[sum:JUL2017:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[JUL%last_year%]' derivation='Sum' name='[sum:JUL%last_year%:qk]' pivot='key' type='quantitative' />
             <column-instance column='[JUL%actual_year%]' derivation='Sum' name='[sum:JUL%actual_year%:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[JUN2017]' derivation='Sum' name='[sum:JUN2017:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[JUN%last_year%]' derivation='Sum' name='[sum:JUN%last_year%:qk]' pivot='key' type='quantitative' />
             <column-instance column='[JUN%actual_year%]' derivation='Sum' name='[sum:JUN%actual_year%:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[MAR2017]' derivation='Sum' name='[sum:MAR2017:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[MAR%last_year%]' derivation='Sum' name='[sum:MAR%last_year%:qk]' pivot='key' type='quantitative' />
             <column-instance column='[MAR%actual_year%]' derivation='Sum' name='[sum:MAR%actual_year%:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[MAY2017]' derivation='Sum' name='[sum:MAY2017:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[MAY%last_year%]' derivation='Sum' name='[sum:MAY%last_year%:qk]' pivot='key' type='quantitative' />
             <column-instance column='[MAY%actual_year%]' derivation='Sum' name='[sum:MAY%actual_year%:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[NOV2017]' derivation='Sum' name='[sum:NOV2017:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[NOV%last_year%]' derivation='Sum' name='[sum:NOV%last_year%:qk]' pivot='key' type='quantitative' />
             <column-instance column='[NOV%actual_year%]' derivation='Sum' name='[sum:NOV%actual_year%:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[OCT2017]' derivation='Sum' name='[sum:OCT2017:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[OCT%last_year%]' derivation='Sum' name='[sum:OCT%last_year%:qk]' pivot='key' type='quantitative' />
             <column-instance column='[OCT%actual_year%]' derivation='Sum' name='[sum:OCT%actual_year%:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[SET2017]' derivation='Sum' name='[sum:SET2017:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[SET%last_year%]' derivation='Sum' name='[sum:SET%last_year%:qk]' pivot='key' type='quantitative' />
             <column-instance column='[SET%actual_year%]' derivation='Sum' name='[sum:SET%actual_year%:qk]' pivot='key' type='quantitative' />
           </datasource-dependencies>
           <filter class='categorical' column='[federated.0sk8x79199xg3v18d8rrr1dhej6c].[:Measure Names]'>
             <groupfilter function='union' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0sk8x79199xg3v18d8rrr1dhej6c].[sum:ABR2017:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0sk8x79199xg3v18d8rrr1dhej6c].[sum:ABR%last_year%:qk]&quot;' />
               <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0sk8x79199xg3v18d8rrr1dhej6c].[sum:ABR%actual_year%:qk]&quot;' />
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0sk8x79199xg3v18d8rrr1dhej6c].[sum:AGO2017:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0sk8x79199xg3v18d8rrr1dhej6c].[sum:AGO%last_year%:qk]&quot;' />
               <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0sk8x79199xg3v18d8rrr1dhej6c].[sum:AGO%actual_year%:qk]&quot;' />
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0sk8x79199xg3v18d8rrr1dhej6c].[sum:DIC2017:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0sk8x79199xg3v18d8rrr1dhej6c].[sum:DIC%last_year%:qk]&quot;' />
               <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0sk8x79199xg3v18d8rrr1dhej6c].[sum:DIC%actual_year%:qk]&quot;' />
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0sk8x79199xg3v18d8rrr1dhej6c].[sum:ENE2017:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0sk8x79199xg3v18d8rrr1dhej6c].[sum:ENE%last_year%:qk]&quot;' />
               <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0sk8x79199xg3v18d8rrr1dhej6c].[sum:ENE%actual_year%:qk]&quot;' />
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0sk8x79199xg3v18d8rrr1dhej6c].[sum:FEB2017:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0sk8x79199xg3v18d8rrr1dhej6c].[sum:FEB%last_year%:qk]&quot;' />
               <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0sk8x79199xg3v18d8rrr1dhej6c].[sum:FEB%actual_year%:qk]&quot;' />
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0sk8x79199xg3v18d8rrr1dhej6c].[sum:JUL2017:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0sk8x79199xg3v18d8rrr1dhej6c].[sum:JUL%last_year%:qk]&quot;' />
               <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0sk8x79199xg3v18d8rrr1dhej6c].[sum:JUL%actual_year%:qk]&quot;' />
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0sk8x79199xg3v18d8rrr1dhej6c].[sum:JUN2017:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0sk8x79199xg3v18d8rrr1dhej6c].[sum:JUN%last_year%:qk]&quot;' />
               <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0sk8x79199xg3v18d8rrr1dhej6c].[sum:JUN%actual_year%:qk]&quot;' />
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0sk8x79199xg3v18d8rrr1dhej6c].[sum:MAR2017:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0sk8x79199xg3v18d8rrr1dhej6c].[sum:MAR%last_year%:qk]&quot;' />
               <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0sk8x79199xg3v18d8rrr1dhej6c].[sum:MAR%actual_year%:qk]&quot;' />
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0sk8x79199xg3v18d8rrr1dhej6c].[sum:MAY2017:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0sk8x79199xg3v18d8rrr1dhej6c].[sum:MAY%last_year%:qk]&quot;' />
               <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0sk8x79199xg3v18d8rrr1dhej6c].[sum:MAY%actual_year%:qk]&quot;' />
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0sk8x79199xg3v18d8rrr1dhej6c].[sum:NOV2017:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0sk8x79199xg3v18d8rrr1dhej6c].[sum:NOV%last_year%:qk]&quot;' />
               <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0sk8x79199xg3v18d8rrr1dhej6c].[sum:NOV%actual_year%:qk]&quot;' />
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0sk8x79199xg3v18d8rrr1dhej6c].[sum:OCT2017:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0sk8x79199xg3v18d8rrr1dhej6c].[sum:OCT%last_year%:qk]&quot;' />
               <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0sk8x79199xg3v18d8rrr1dhej6c].[sum:OCT%actual_year%:qk]&quot;' />
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0sk8x79199xg3v18d8rrr1dhej6c].[sum:SET2017:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0sk8x79199xg3v18d8rrr1dhej6c].[sum:SET%last_year%:qk]&quot;' />
               <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0sk8x79199xg3v18d8rrr1dhej6c].[sum:SET%actual_year%:qk]&quot;' />
             </groupfilter>
           </filter>

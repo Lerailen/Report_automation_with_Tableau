@@ -6,20 +6,20 @@ import { checkFolderSync, readFile, replaceXMLValues } from './utils';
 const CONFIG: {
   'output': {
     'folder': string,
-    'file': string
+    'file': string,
   },
   'template_tableau': {
     'path': string,
-    'name': string
+    'name': string,
   },
   'params': {
     'actual_month': string,
-    'actual_year': string
-  }
+    'actual_year': string,
+  },
   'queries': {
     'path': string,
-    'names': string[]
-  }
+    'names': string[],
+  },
 } = require('../config/sysconf.json');
 
 // Obtains the path to the template file
@@ -62,15 +62,17 @@ new Promise((resolve: () => void, _: (err: string) => void) => {
 .then((queries)=>{
 
 
-  for(let i =0; i< queries.length; i++){
-    console.log('Queries '+i+': '+(queries[i] as any).path);
-  }
+  // for(let i =0; i< queries.length; i++){
+  //   console.log('Queries '+i+': '+(queries[i] as any).path);
+  // }
+
+  PARAMS["last_year"] = (parseInt(PARAMS["actual_year"]) - 1);
 
   // Replace all ocurrences in each query
   for(let i = 0; i< queries.length; i++){
     (queries[i] as any).data = replaceXMLValues((queries[i] as any).data.toString(), PARAMS);
   }
-  console.log("The values of the queries are replaced")
+  // console.log("The values of the queries are replaced")
   return queries;
 })
 .then((queries)=>{
