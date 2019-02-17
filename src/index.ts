@@ -54,18 +54,15 @@ new Promise((resolve: () => void, _: (err: string) => void) => {
   let promises = [];
   for (let i = 0; i < QUERIES_NAMES.length; i++){
     let filename = QUERIES_FOLDER + '/' + QUERIES_NAMES[i];
-    promises.push(readFile(filename));
+    promises.push(readFile(filename)); //return {path:'/path',data:'text1..'}[]
   }
   return Promise.all(promises);
 
 })
 .then((queries)=>{
 
-
-  // for(let i =0; i< queries.length; i++){
-  //   console.log('Queries '+i+': '+(queries[i] as any).path);
-  // }
-
+  // There are certain queries which require a range of time. In this case
+  // the oldest date is setted to one year because of reporting reasons.
   PARAMS["last_year"] = (parseInt(PARAMS["actual_year"]) - 1);
 
   // Replace all ocurrences in each query
@@ -76,13 +73,24 @@ new Promise((resolve: () => void, _: (err: string) => void) => {
   return queries;
 })
 .then((queries)=>{
-
+  
+  // Reads template file. Returns array [queries, template]
   return readFile(TEMPLATE_FILE).then((template)=> {return [queries, template]});
 
 }).then(([queries, template]) => {
 
+  /*
+    Sets the name of the query and it's value in a new object
+    With the template and the new object the final queries are placed
+    filanQueries=
+    {
+      'name_of_the_file': 'query1_query1'
+    }
+  */
+
   let finalQueries={};
   for(let query in queries){
+    // Path were the file was readed
     let path:string = (queries as any)[query].path;
     let key:string = path.substring(QUERIES_FOLDER.length+1, path.length-4);
     finalQueries[key]= queries[query].data

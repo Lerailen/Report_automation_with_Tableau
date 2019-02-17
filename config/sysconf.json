@@ -1,14 +1,14 @@
 {
-  "output": {
-    "folder": "out",
-    "file": "result.twb"
-  },
   "template_tableau": {
     "path": "config",
     "name": "template.twb"
   },
+  "output": {
+    "folder": "out",
+    "file": "result.twb"
+  },
   "params": {
-    "actual_month": "02",
+    "actual_month": "01",
     "actual_year": "2018"
   },
   "queries": {

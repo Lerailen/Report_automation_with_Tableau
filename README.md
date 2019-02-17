@@ -20,7 +20,7 @@ npm install
 
 ```
 
-## Ussage
+## Usage
 
 ```bash
 
@@ -38,17 +38,24 @@ also allows to change the queries done to the database.
 
 ```json
 {
-  "output": {
-    "folder": "example_output_folder",
-    "file": "example_output_file"
+  "template_tableau": {
+    "path": "template_file_path",
+    "name": "template_file_name"
   },
-  "template_file": {
-    "path": "example_template_file_path",
-    "name": "example_template_file_name",
-    "params": {
-      "query_x":"",
-      "query_x+1":""
-    }
+  "output": {
+    "folder": "output_folder",
+    "file": "output_file_name"
+  },
+  "params": {
+    "actual_month": "desired_month_to_report",
+    "actual_year": "desired_year_to_report"
+  },
+  "queries": {
+    "path": "queries_folder_path",
+    "names": [
+      "query_x",
+      "query_x+1",
+    ]
   }
 }
 ```

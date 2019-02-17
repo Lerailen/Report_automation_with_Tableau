@@ -24,7 +24,7 @@ export function checkFolderSync(path: string) {
 }
 
 /**
- * 
+ * Transforms the readFile function, which returns a callback, into a Promise.
  * @param path 
  */
 export function readFile(path: string) {
