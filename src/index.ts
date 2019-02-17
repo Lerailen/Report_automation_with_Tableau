@@ -4,13 +4,13 @@ import { checkFolderSync, readFile, replaceXMLValues } from './utils';
 // Obtain the service configuration
 /* tslint:disable:no-var-requires */
 const CONFIG: {
-  'output': {
-    'folder': string,
-    'file': string,
-  },
   'template_tableau': {
     'path': string,
     'name': string,
+  },
+  'output': {
+    'folder': string,
+    'file': string,
   },
   'params': {
     'actual_month': string,
