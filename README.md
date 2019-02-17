@@ -1,10 +1,10 @@
-# NAT's TFM
+# Report automation with Tableau
 
-Service which applies some params in a template.
+Automation of activity reports on social networks with Tableau.
 
 ## Table of contents
 
-* [NAT's TFM](#NAT's-TFM)
+* [Report automation with Tableau](#Report-automation-with-Tableau)
 * [Table of contents](#table-of-contents)
 * [Installation](#installation)
 * [Usage](#usage)
